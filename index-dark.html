@@ -1,0 +1,3564 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="dark-style.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+  
+    <script src="js/dark-script.js"></script>
+
+    <title>Learn Shudh Gurbani</title>
+</head>
+<body>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content">
+
+            <button type="button" class="close text-right MR-2" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            <div class="modal-header">
+
+            <img src="images/form-logo-dark.png" width="150px" height="100px" alt="">
+            <h5 class="modal-title" id="exampleModalLabel">Resources</h5>
+
+            </div>
+
+            <div class="modal-body">
+
+                <form>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Username" value="" />
+                    </div>
+
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password" value="" />
+                    </div>
+
+                    <div class="form-group text-center mt-5">
+                        <input type="submit" class="btnSubmit login" value="Login" />
+                    </div>
+
+                    <div class="form-group text-center">
+                        <input type="submit" class="btnsignup" value="Sign Up" />
+                    </div>
+
+                </form>
+
+            </div>
+                           
+            </div>
+
+            </div>
+
+    </div>
+
+        </div>
+
+
+    
+    <!-- HEADER SECTION -->
+
+    <header id="menu" class="menu">
+        
+                <div id="mySidebar main-sidebar" class="sidebar shadow-lg rounded offset-0.8 Scroll-style-sidebar">
+
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        
+                    <h1 class="logo pl-5">Learn Shudh Gurbani</h1>
+                    <p class="sub-title mb-5 pl-5">A project by <i class="fa fa-search" aria-hidden="true"></i> <span>GURSEVAK</span> </p>
+        
+                    <a href="#" class="active">Sehaj Path</a>
+                    <hr class="sidebar-horizontal">
+                    <a href="#">Sundar Gutka</a>
+                    <hr class="sidebar-horizontal">
+                    <a href="#">Bal Oupdesh</a>
+                    <hr class="sidebar-horizontal">
+                    <a href="#">Literature</a>
+                    <hr class="sidebar-horizontal">
+                    <a href="#">Hukamnama Sahib</a>
+                    <hr class="sidebar-horizontal">
+                    <a href="#">Multimedia</a>
+                    <hr class="sidebar-horizontal">
+                    <a href="#">Resources</a>
+                    <hr class="sidebar-horizontal">
+        
+                    <span class="other-links mt-3 mb-3 pl-5 pb-3">OUR NETWORK</span>
+        
+        
+                    <a href="#" class="mt-2 ">gursevak.com</a>        
+                    <hr class="sidebar-horizontal">
+                    <a href="#">mahapursh.com</a>
+                    <hr class="sidebar-horizontal">
+
+                    <div class="sidebar-donate pt-2 pb-2 mt-4">
+
+                    <a href="#">Donate</a>
+                    <p class="pl-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima minus placeat, dolores ullam tenetur sed corrupti et.</p>
+                    
+                    </div>
+
+                  </div>
+                  
+                  <div id="main">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-12 col-sm-12 float-left">
+                            <button class="openbtn" onclick="openNav()">☰ </button> <span class="logo-title">Learn Shudh Gurbani</span> <span class="sub-title ml-1">A project by <i class="fa fa-search" aria-hidden="true"></i>
+                                <span>GURSEVAK</span> </span>
+                        </div>
+        
+                        <div class="col-lg-4 col-md-12 col-sm-12 icons">
+                            <span class="play"> <i class="fa fa-play" aria-hidden="true"></i> Play Radio</span>
+                             <i class="fa fa-search ml-4 mr-4 float-right" aria-hidden="true"></i>
+                            <i class="fa fa-pencil ml-4  float-right" aria-hidden="true"></i>
+                            <button type="button" class="icons" data-toggle="modal" data-target="#exampleModal">
+                                <i class="fa fa-user ml-4 float-right" aria-hidden="true"></i> 
+                            </button>
+                            
+                        </div>
+        
+                      </div> 
+                  </div>
+         
+        
+    </header>
+
+    <!-- MODAL SECTION -->
+
+
+      
+    <!-- SLIDER SECTION -->
+
+    <section id="slider" class="slider">
+        <div class="container-fluid">
+
+            <div class="inner">
+
+                <div class="row slider-content d-flex justify-content-center align-items-center text-center">
+                    <div class="col-12">
+                        <h3 class="">Learn Shudh Gurbani</h3>
+                        <p class="">Summarize this service in one sentence here for new audience</p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-9 col-sm-9 search-box">
+                      <!--  -->
+                      <div class="form-group dropdown-searcharea">
+                        <div class="input-group">
+
+                          <button class="btn-design d-inline-block" onclick="myFunctionSel()">
+                            <input class="form-control py-4 lime-border d-inline-block" type="text" placeholder="Text to be added" aria-label="Search">
+                          </button>
+    
+                            <div class="input-group-append">
+
+                              <span class="input-group-text lime lighten-2" id="basic-text1">
+
+                                <button class="btn-keyboard" onclick="myFunctionKeyboard()">
+                                <i class="mr-3 ml-3 fa-lg fa-regular fa-keyboard text-white"></i>  
+                                </button>
+                                
+                                <i class="mr-3 ml-3 fa-lg fa fa-search text-white" aria-hidden="true"></i>                                     
+                              </span>
+
+                            </div>
+                        
+                          </div>
+                    </div>
+                      <!--  -->
+    
+                        <div id="myDIVSel"  class="up py-3 px-2 text-left">
+                          <ul>
+    
+                              <li class="active pl-3">Test to be Added</li>
+                              <li class="pl-3">Test to be Added</li>
+                          </ul>
+                          <p>Show all results</p>
+                      </div>
+
+                      <div id="myKeyboard" class="keyboard py-3 text-left">
+                        
+                          
+                            <div class="keyboard-flex d-flex overflow-visible flex-row justify-content-evenly align-items-start">
+                              <div class="flex-item">w</div>
+                              <div class="flex-item">i</div>
+                              <div class="flex-item">I</div>
+                              <div class="flex-item">u</div>
+                              <div class="flex-item">U</div>
+                              <div class="flex-item">y</div>
+                              <div class="flex-item">Y</div>
+                              <div class="flex-item">o</div>
+                              <div class="flex-item">O</div>
+                              <div class="flex-item">M</div>
+                              <div class="flex-item">N</div>
+                            </div>
+
+                            <div class="keyboard-flex d-flex overflow-visible flex-row justify-content-evenly align-items-start mt-2">
+                              <div class="flex-item">w</div>
+                              <div class="flex-item">i</div>
+                              <div class="flex-item">I</div>
+                              <div class="flex-item">u</div>
+                              <div class="flex-item">U</div>
+                              <div class="flex-item">y</div>
+                              <div class="flex-item">Y</div>
+                              <div class="flex-item">o</div>
+                              <div class="flex-item">O</div>
+                              <div class="flex-item">M</div>
+                              <div class="flex-item">N</div>
+                            </div>
+
+                            <div class="keyboard-flex d-flex overflow-visible flex-row justify-content-evenly align-items-start mt-2">
+                              <div class="flex-item">w</div>
+                              <div class="flex-item">i</div>
+                              <div class="flex-item">I</div>
+                              <div class="flex-item">u</div>
+                              <div class="flex-item">U</div>
+                              <div class="flex-item">y</div>
+                              <div class="flex-item">Y</div>
+                              <div class="flex-item">o</div>
+                              <div class="flex-item">O</div>
+                              <div class="flex-item">M</div>
+                              <div class="flex-item">N</div>
+                            </div>
+
+                            <div class="keyboard-flex d-flex overflow-visible flex-row justify-content-evenly align-items-start mt-2">
+                              <div class="flex-item">w</div>
+                              <div class="flex-item">i</div>
+                              <div class="flex-item">I</div>
+                              <div class="flex-item">u</div>
+                              <div class="flex-item">U</div>
+                              <div class="flex-item">y</div>
+                              <div class="flex-item">Y</div>
+                              <div class="flex-item">o</div>
+                              <div class="flex-item">O</div>
+                              <div class="flex-item">M</div>
+                              <div class="flex-item">N</div>
+                            </div>
+
+                            <div class="keyboard-flex d-flex overflow-visible flex-row justify-content-evenly align-items-start mt-2">
+                              <div class="flex-item">w</div>
+                              <div class="flex-item">i</div>
+                              <div class="flex-item">I</div>
+                              <div class="flex-item">u</div>
+                              <div class="flex-item">U</div>
+                              <div class="flex-item">y</div>
+                              <div class="flex-item">Y</div>
+                              <div class="flex-item">o</div>
+                              <div class="flex-item">O</div>
+                              <div class="flex-item">M</div>
+                              <div class="flex-item">N</div>
+                            </div>
+                          
+                            <div class="keyboard-flex d-flex overflow-visible flex-row justify-content-evenly align-items-start mt-2">
+                              <div class="flex-item">?</div>
+                              <div class="flex-item flex-grow-1 text-center">SPACE</div>
+                              <div class="flex-item mr-3">&larr;</div>
+                              
+                            </div>
+                    </div>
+    
+                    </div>
+    
+                <div class="col-lg-12 col-md-12 col-sm-12">
+
+                </div>
+                
+                <div class="col-lg-8 col-md-12 col-sm-6 mt-4 d-lg-flex d-md-flex d-sm-flex flex-lg-row flex-md-row flex-sm-column">
+
+                        <div class="flex-item-header mr-2 mb-3">
+
+                            <div class="advanced-settings">
+                              <button onclick="myFunctionSearch()">
+                                <span class="pr-4">
+                                  Search Type  
+                                </span> 
+                                <i class="fa-lg fa fa-angle-down pl-4 mt-2  " aria-hidden="true"></i>
+                              </button>
+                           </div>
+
+                        
+                          <div id="myDIVSearch" class="search-type-list mt-2">
+                              <ul class="text-left pl-2 pt-2 pb-2 pr-2">
+                                  <li>First Letter Start</li>
+                                  <hr class="search-type-list-hr">                           
+                                  <li>First Letter Anywhere</li>
+                                  <hr class="search-type-list-hr">
+                                  <li class="active">Ang/Vaar</li>
+                                  <hr class="search-type-list-hr">
+                                  <li>Gurmukhi (Full Word)</li>
+                                  <hr class="search-type-list-hr">
+                                  <li>English (Translation)</li>
+                              </ul>
+                          </div>
+                        </div>
+                        
+    
+                       <div class="flex-item-header mr-2 mb-3">
+                            <!-- <select class="form-select" aria-label="Default select example">
+                                <option selected>Raag</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>  -->
+                              
+                              <div class="advanced-settings">
+                                <button>
+                                  <span class="span-padding"> Raag </span> 
+                                  <i class="fa-lg fa fa-angle-down   mt-2" aria-hidden="true"></i>
+                                </button>                               
+                            </div>
+
+                        </div>
+    
+                        <div class="flex-item-header mr-2 mb-3">
+                            <!-- <select class="form-select" aria-label="Default select example">
+                                <option selected>Writer</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select> -->
+                              <div class="advanced-settings">
+                                <button>
+                                  <span class="span-padding"> Writer </span> 
+                                  <i class="fa-lg fa fa-angle-down   mt-3" aria-hidden="true"></i>
+                                </button>                               
+                            </div>
+                        </div>
+    
+                        <div class="flex-item-header mr-2 mb-3">
+                            <!-- <select class="form-select" aria-label="Default select example">
+                                <option selected>Granth</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select> -->
+
+                              <div class="advanced-settings">
+                                <button>
+                                  <span class="span-padding"> Granth </span> 
+                                  <i class="fa-lg fa fa-angle-down   mt-2" aria-hidden="true"></i>
+                                </button>
+                            </div>
+
+                            
+                        </div>
+    
+                        <div class="flex-item-header mb-3">
+                          <div class="advanced-settings">
+                            <button onclick="myFunctionAdvanced()">
+                              <span class="pr-0">
+                                Advanced Settings 
+                              </span> 
+                              <i class="fa-lg fa fa-angle-down pl-3  mt-2" aria-hidden="true"></i> 
+                            </button>
+                            
+                        </div>
+
+                        <div id="myDIVAdvanced" class="advanced-type-list mt-3 pt-3 pb-3 pl-3 pr-3">
+                          <div class="ScrollAdvanced">
+
+                            <div class="title-content">
+                              <h5>Similar Letters</h5>
+                              <p>For example, if you are unsure whether the shabad you’re searching has bIcwr or vIcwr, enabling Similar Letters will display results for both.</p>
+                            </div>
+                            
+                            
+                            <div class="row mb-2">
+
+                              <div class="col-lg-3 col-md-6 col-sm-6">
+                                <span class="text-white">v=b</span>
+                              </div>
+
+                              <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div id="toggleSwitch">
+                                  <label for="toggle">
+                                    <input class="input" type="checkbox" id="toggle">
+                                    <div class="advanced-switch"><span class="selector"></span></div>
+                                  </label>
+                                </div>
+                              </div>
+                              
+                              <div class="col-lg-3 col-md-6 col-sm-6">
+                                <span class="text-white">k=k</span>
+                              </div>
+
+                              <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div id="toggleSwitch">
+                                  <label for="toggle-01">
+                                    <input class="input" type="checkbox" id="toggle">
+                                    <div class="advanced-switch"><span class="selector"></span></div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row mb-2">
+
+                              <div class="col-lg-3 col-md-6 col-sm-6">
+                                <span class="text-white">x=n</span>
+                              </div>
+
+                              <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div id="toggleSwitch">
+                                  <label for="toggle-02">
+                                    <input class="input" type="checkbox" id="toggle-04">
+                                    <div class="advanced-switch-blue"><span class="selector"></span></div>
+                                  </label>
+                                </div>
+                              </div>
+                              
+                              <div class="col-lg-3 col-md-6 col-sm-6">
+                                <span class="text-white">k=k</span>
+                              </div>
+
+                              <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div id="toggleSwitch">
+                                  <label for="toggle-03">
+                                    <input class="input" type="checkbox" id="toggle-04">
+                                    <div class="advanced-switch-blue"><span class="selector"></span></div>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+
+                            <h6 class="mt-2">Blank Search</h6>
+                            <p class="mb-0">Blank search allows you to search different filters.Blank search allows you to search different filters.
+                              Blank search allows you to search different filters.Blank search allows you to search different filters.
+                              Blank search allows you to search different filters.Blank search allows you to search different filters.
+                              Blank search allows you to search different filters.Blank search allows you to search different filters.
+                            </p>
+
+                            
+                              <span class="mr-2 enable-yellow mt-2">Enble Blank Search</span>
+                  
+                              <div id="toggleSwitch" class=" enable-switch float-left d-inline mt-2">
+                                <label for="toggle">
+                                  <input class="input" type="checkbox" id="toggle">
+                                  <div class="toggle-wrapper-blue"><span class="selector"></span></div>
+                                </label>
+                              </div>
+                            </div>
+
+                        </div>
+                        </div>
+                    
+                </div> 
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <!-- RECENTLY READ SECTION -->
+
+    <section id="recently-read" class="recently-read pb-5">
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- <div class="section-title-01">
+                    <h5>Recently Read</h5>
+                </div> -->
+
+                <div class="col-lg-4 col-md-12 col-sm-12 mb-3">
+                    <div class="inner-blocks">
+
+                        <div class="text">
+                            <span class="float-left text-01">Japji sahib</span>
+                            <span class="float-right text-02">Text To Be Added</span>
+                        </div>
+
+                        
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                            <span class="title">Text To Be Added</span>
+                            </div>
+                        </div>
+                    
+                    </div>        
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12 mb-3">
+                    <div class="inner-blocks">
+
+                        <div class="text">
+                            <span class="float-left text-01">Japji sahib</span>
+                            <span class="float-right text-02">Text To Be Added</span>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                            <span class="title">Text To Be Added</span>
+                            </div>
+                        </div>
+
+                    </div>
+                      
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12 mb-3">
+                    <div class="inner-blocks">
+
+                        <div class="text">
+                            <span class="float-left text-01">Japji sahib</span>
+                            <span class="float-right text-02">Text To Be Added</span>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                            <span class="title">Text To Be Added</span>
+                            </div>
+                        </div>
+
+                    </div>
+                      
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ACCORDION & TAB SECTION -->
+
+
+    <section id="categories" class="categories pb-5">
+        <div class="container-fluid">
+
+            <nav>
+                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-sehaj-path" role="tab" aria-controls="nav-home" aria-selected="true">Sehaj Paath</a>
+                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-sundar-gutka" role="tab" aria-controls="nav-profile" aria-selected="false">Sundar Gutka</a>
+                    <a class="nav-item nav-link" id="nav-nav-bal-oupdesh-tab" data-toggle="tab" href="#nav-nav-bal-oupdesh" role="tab" aria-controls="nav-nav-bal-oupdesh" aria-selected="false">Bal Oupdesh</a>
+                    <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-literature" role="tab" aria-controls="nav-about" aria-selected="false">Literature</a>
+                    <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-multimedia" role="tab" aria-controls="nav-about" aria-selected="false">Multimedia</a>
+                    <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-resources" role="tab" aria-controls="nav-about" aria-selected="false">Resources</a>
+
+                    <div class="">
+                      <button type="button" class="btn btn-light rounded-pill bg-light">
+                        <span class="text-dark">Select Gutka Sahib</span> 
+                        <i class="fa-lg fa fa-angle-down text-dark aria-hidden="true"></i>
+                      </button>
+                  </div>
+                
+                  </div>
+            </nav>
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-sehaj-path" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="accordion" id="accordion2">
+
+                        <div class="accordion-group ">
+                            <div class="accordion-heading ">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                    <span class="text-03 mr-3">Text to be added</span> Sri Guru Granthh Sahib Ji
+                                </a>
+                            </div>
+    
+                            <div id="collapseOne" class="accordion-body collapse show">
+                                <div class="accordion-inner">
+                                    <hr>
+                                    
+                                    <span class="add-new">+ Add a New Path</span>
+    
+                                 <div class="row mt-3">   
+                                    <div class="col-lg-4 col-md-12 col-sm-12 mb-3">
+                                        <div class="inner-blocks">
+                    
+                                            <div class="text">
+                                                <span class="float-left text-01">Japji sahib</span>
+                                                <span class="float-right text-02">Text To Be Added</span>
+                                            </div>
+                    
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                                                <span class="title">Text To Be Added</span>
+                                                </div>
+                                            </div>
+                    
+                                        </div>
+                                          
+                                    </div>
+    
+                                    <div class="col-lg-4 col-md-12 col-sm-12 mb-3">
+                                        <div class="inner-blocks">
+                    
+                                            <div class="text">
+                                                <span class="float-left text-01">Japji sahib</span>
+                                                <span class="float-right text-02">Text To Be Added</span>
+                                            </div>
+                    
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                                                <span class="title">Text To Be Added</span>
+                                                </div>
+                                            </div>
+                    
+                                        </div>
+                                          
+                                    </div>
+    
+                                    <div class="col-lg-4 col-md-12 col-sm-12 mb-3">
+                                        <div class="inner-blocks">
+                    
+                                            <div class="text">
+                                                <span class="float-left text-01">Japji sahib</span>
+                                                <span class="float-right text-02">Text To Be Added</span>
+                                            </div>
+                    
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                                                <span class="title">Text To Be Added</span>
+                                                </div>
+                                            </div>
+                    
+                                        </div>
+                                          
+                                    </div>
+    
+                                </div>
+    
+                                </div>
+                            </div>
+                        </div>
+    
+                        <hr>
+                
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                    <span class="text-03 mr-3">Text to be added</span> Sri Dasam Guru Granth Sahib Ji
+                                </a>
+                             </div>
+                
+                            <div id="collapseTwo" class="accordion-body collapse">
+                                <div class="accordion-inner text-white">
+                                    Text To Be Added...
+                                </div>
+                            </div>
+                        </div>
+    
+                        <hr>
+    
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                                    <span class="text-03 mr-3">Text to be added</span> Vaaran Bhai Gurdas Ji
+                                </a>
+                             </div>
+                
+                            <div id="collapseThree" class="accordion-body collapse">
+                                <div class="accordion-inner text-white">
+                                    Text To Be Added...
+                                </div>
+                            </div>
+                        </div>
+    
+                        <hr>
+    
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                                    <span class="text-03 mr-3">Text to be added</span> Kabit Bhai Gurdas Ji
+                                </a>
+                             </div>
+                
+                            <div id="collapseFour" class="accordion-body collapse">
+                                <div class="accordion-inner text-white">
+                                    Text to be added...
+                                </div>
+                            </div>
+                        </div>
+    
+                        <hr>
+    
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-sundar-gutka" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                   
+                    <div class="accordion" id="accordion2">
+
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                    <span class="text-03 mr-3">Text to be added</span> Gutka Sahib Name
+                                </a>
+                            </div>
+    
+                            <div id="collapseOne" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <hr>
+                                    
+                                    
+    
+                                 <div class="row mt-3">   
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                        <div class="inner-blocks-tab-02">
+                    
+                                            <div class="text">
+                                                
+                                                <span class="float-left text-01">Text To Be Added</span> <br>
+                                                <span class="float-left text-02">Gurbani Name</span>
+                                            </div>
+                    
+                                        </div>
+                                          
+                                    </div>
+    
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                        <div class="inner-blocks-tab-02">
+                    
+                                            <div class="text">
+                                                <span class="float-left text-01">Text To Be Added</span> <br>
+                                                <span class="float-left text-02">Gurbani Name</span>
+                                            </div>
+                    
+                                        </div>
+                                          
+                                    </div>
+    
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                        <div class="inner-blocks-tab-02">
+                    
+                                            <div class="text">
+                                                <span class="float-left text-01">Text To Be Added</span> <br>
+                                                <span class="float-left text-02">Gurbani Name</span>
+                                            </div>
+                                        </div>
+                                          
+                                    </div>
+    
+                                </div>
+                                
+                                <div class="row mt-3">   
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                        <div class="inner-blocks-tab-02">
+                    
+                                            <div class="text">
+                                                
+                                                <span class="float-left text-01">Text To Be Added</span> <br>
+                                                <span class="float-left text-02">Gurbani Name</span>
+                                            </div>
+                    
+                                        </div>
+                                          
+                                    </div>
+    
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                        <div class="inner-blocks-tab-02">
+                    
+                                            <div class="text">
+                                                <span class="float-left text-01">Text To Be Added</span> <br>
+                                                <span class="float-left text-02">Gurbani Name</span>
+                                            </div>
+                    
+                                        </div>
+                                          
+                                    </div>
+    
+                                    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                        <div class="inner-blocks-tab-02">
+                    
+                                            <div class="text">
+                                                <span class="float-left text-01">Text To Be Added</span> <br>
+                                                <span class="float-left text-02">Gurbani Name</span>
+                                            </div>
+                                        </div>
+                                          
+                                    </div>
+    
+                                </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+    
+                        <hr>
+                
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                    <span class="text-03 mr-3">Text to be added</span> Gutka Sahib Name
+                                </a>
+                             </div>
+                
+                            <div id="collapseTwo" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <hr>
+                                    
+                                    
+    
+                                    <div class="row mt-3">   
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                       
+                                           </div>
+                                             
+                                       </div>
+       
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                       
+                                           </div>
+                                             
+                                       </div>
+       
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                                           </div>
+                                             
+                                       </div>
+       
+                                   </div>
+                                   
+                                   <div class="row mt-3">   
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                       
+                                           </div>
+                                             
+                                       </div>
+       
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                       
+                                           </div>
+                                             
+                                       </div>
+       
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                                           </div>
+                                             
+                                       </div>
+       
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <hr>
+    
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                                    <span class="text-03 mr-3">Text to be added</span> Gutka Sahib Name
+                                </a>
+                             </div>
+                
+                            <div id="collapseThree" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <hr>
+                                    
+                                    
+    
+                                    <div class="row mt-3">   
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                       
+                                           </div>
+                                             
+                                       </div>
+       
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                       
+                                           </div>
+                                             
+                                       </div>
+       
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                                           </div>
+                                             
+                                       </div>
+       
+                                   </div>
+                                   
+                                   <div class="row mt-3">   
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                       
+                                           </div>
+                                             
+                                       </div>
+       
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                       
+                                           </div>
+                                             
+                                       </div>
+       
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                                           </div>
+                                             
+                                       </div>
+       
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <hr>
+    
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                                    <span class="text-03 mr-3">Text to be added</span> Gutka Sahib Name
+                                </a>
+                             </div>
+                
+                            <div id="collapseFour" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <hr>
+                                    
+                                    
+    
+                                    <div class="row mt-3">   
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                       
+                                           </div>
+                                             
+                                       </div>
+       
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                       
+                                           </div>
+                                             
+                                       </div>
+       
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                                           </div>
+                                             
+                                       </div>
+       
+                                   </div>
+                                   
+                                   <div class="row mt-3">   
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                       
+                                           </div>
+                                             
+                                       </div>
+       
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                       
+                                           </div>
+                                             
+                                       </div>
+       
+                                       <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+                                           <div class="inner-blocks-tab-02">
+                       
+                                               <div class="text">
+                                                   <span class="float-left text-01">Text To Be Added</span> <br>
+                                                   <span class="float-left text-02">Gurbani Name</span>
+                                               </div>
+                                           </div>
+                                             
+                                       </div>
+       
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <hr>
+    
+                    </div>
+                </div>
+
+                <div class="tab-pane fade text-white" id="nav-nav-bal-oupdesh" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    
+                  <div class="accordion" id="accordionExample">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                          <!-- <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">Raag</span> 
+                          </button> -->
+                          <a class="accordion-toggle-bal" data-toggle="collapse" data-parent="#collapseOne" href="#collapseOne">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">Raag</span> 
+                        </a>
+                        </h2>
+                      </div>
+
+                      <hr class="mt-0 mb-0 bal-hr">
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <div class="sahib-title">
+                            <p class="pl-3 pr-5"><span class="text-0-3 mr-3">Text to be added</span> <span class="text-0-33">Guru Sahibs</span></p>
+                          </div>
+                          
+                          <div class="row">
+                            
+                    
+                            <div class="col-3">
+                              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <a class="nav-link active" id="v-pills-01-tab" data-toggle="pill" href="#v-pills-01" role="tab" aria-controls="v-pills-01" aria-selected="true">Guru Sahib Name Here</a>
+                                <a class="nav-link" id="v-pills-02-tab" data-toggle="pill" href="#v-pills-02" role="tab" aria-controls="v-pills-02" aria-selected="false">Guru Sahib Name Here</a>
+                                <a class="nav-link" id="v-pills-03-tab" data-toggle="pill" href="#v-pills-03" role="tab" aria-controls="v-pills-03" aria-selected="false">Guru Sahib Name Here</a>
+                                <a class="nav-link" id="v-pills-04-tab" data-toggle="pill" href="#v-pills-04" role="tab" aria-controls="v-pills-04" aria-selected="false">Guru Sahib Name Here</a>
+                                <a class="nav-link" id="v-pills-05-tab" data-toggle="pill" href="#v-pills-05" role="tab" aria-controls="v-pills-05" aria-selected="false">Guru Sahib Name Here</a>
+                                <a class="nav-link" id="v-pills-06-tab" data-toggle="pill" href="#v-pills-06" role="tab" aria-controls="v-pills-06" aria-selected="false">Guru Sahib Name Here</a>
+                                <a class="nav-link" id="v-pills-07-tab" data-toggle="pill" href="#v-pills-07" role="tab" aria-controls="v-pills-07" aria-selected="false">Guru Sahib Name Here</a>
+                                <a class="nav-link" id="v-pills-08-tab" data-toggle="pill" href="#v-pills-08" role="tab" aria-controls="v-pills-08" aria-selected="false">Guru Sahib Name Here</a>
+                                <a class="nav-link" id="v-pills-09-tab" data-toggle="pill" href="#v-pills-09" role="tab" aria-controls="v-pills-09" aria-selected="false">Guru Sahib Name Here</a>
+                                <a class="nav-link" id="v-pills-10-tab" data-toggle="pill" href="#v-pills-10" role="tab" aria-controls="v-pills-10" aria-selected="false">Guru Sahib Name Here</a>
+                              </div>
+                            </div>
+                    
+                            <div class="col-9">
+                              <div class="tab-content" id="v-pills-tabContent">
+                    
+                                <div class="tab-pane fade show active" id="v-pills-01" role="tabpanel" aria-labelledby="v-pills-01-tab">
+                    
+                                  <span><i class="fa-lg fa fa-expand float-right mr-4 mt-4 multimedia-icon aria-hidden=" true"=""></i></span>
+
+                                  <div class="container bg-bal">
+                    
+                                    <div class="t-title">
+                                      <h4 class="text-yellow">Heading</h4> <br>
+                                      
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reprehenderit.</p>
+                                    </div>
+                                    
+                                    <div class="t-content">
+                    
+                                      
+                                        <img src="images/dummy.png" width="300px" height="300px" class="d-inline float-left mr-3 img-bal">
+                                        <!-- <figcaption class="figure-caption text-left">A caption for the above image.</figcaption> -->
+                                     
+                    
+                                        <h5 class="bal-sub">SUBHEADING</h5>
+                                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia itaque libero autem. Consequatur quos provident incidunt fuga sequi accusantium dolorem culpa maiores aliquid nam quo nobis omnis commodi deserunt voluptatem iste, ipsam iure, dignissimos facilis error? Delectus vero facilis dolore dolorum, quibusdam in ad necessitatibus asperiores sequi deserunt unde distinctio quaerat odit amet porro atque, quidem reiciendis. Harum voluptatibus quos aut corrupti obcaecati incidunt amet reprehenderit facilis repudiandae non cupiditate quibusdam quas ea perspiciatis, odit dignissimos veniam veritatis accusantium magnam earum quo eligendi, dolorum dolorem? A suscipit delectus, commodi officia deleniti, repellendus eligendi quam veniam optio quis autem. Quod repudiandae incidunt repellendus minima quis, labore praesentium, vero iure nesciunt deleniti obcaecati, hic earum. Cupiditate enim adipisci alias soluta nam? Perferendis cumque pariatur voluptatibus ad. Praesentium facere architecto odit velit excepturi quisquam ex? Amet cumque odio, non dignissimos atque nihil est suscipit autem repudiandae, sequi illum quia error qui doloribus sint. Laborum maiores ipsa hic cupiditate corporis fugit alias et dignissimos eveniet nostrum corrupti inventore voluptas ea porro, adipisci amet vero veniam aperiam quisquam ad! Corrupti sint fuga veritatis ad. Omnis quibusdam iste saepe modi ipsa accusantium sequi, ex veniam nisi ullam mollitia consequatur harum tenetur dolorem, inventore nobis, odit libero a. Ea nisi vero, aliquid ipsa tempora, sint veniam id praesentium temporibus dolores ipsam, mollitia cum quo laboriosam doloribus earum eum! Et ex cum, ipsam sunt corporis in voluptas aperiam nihil rerum maiores architecto, quia odio voluptatibus non. Debitis est ullam corporis cumque sapiente voluptatum similique perferendis fuga ad reprehenderit harum necessitatibus excepturi in optio quam consequatur, tempore alias impedit nam eveniet facilis illum. Natus odit reiciendis eos, accusantium veritatis quidem reprehenderit id tenetur corporis est numquam ipsam excepturi placeat</p>
+                                      
+                                    </div>                
+                                  </div>
+                                  </div>
+                    
+                                
+                    
+                                <div class="tab-pane fade" id="v-pills-02" role="tabpanel" aria-labelledby="v-pills-02-tab">Text to be added</div>
+                                <div class="tab-pane fade" id="v-pills-03" role="tabpanel" aria-labelledby="v-pills-03-tab">Text to be added</div>
+                                <div class="tab-pane fade" id="v-pills-04" role="tabpanel" aria-labelledby="v-pills-04-tab">Text to be added</div>
+                                <div class="tab-pane fade" id="v-pills-05" role="tabpanel" aria-labelledby="v-pills-05-tab">Text to be added</div>
+                                <div class="tab-pane fade" id="v-pills-06" role="tabpanel" aria-labelledby="v-pills-06-tab">Text to be added</div>
+                                <div class="tab-pane fade" id="v-pills-07" role="tabpanel" aria-labelledby="v-pills-07-tab">Text to be added</div>
+                                <div class="tab-pane fade" id="v-pills-08" role="tabpanel" aria-labelledby="v-pills-08-tab">Text to be added</div>
+                                <div class="tab-pane fade" id="v-pills-09" role="tabpanel" aria-labelledby="v-pills-09-tab">Text to be added</div>
+                                <div class="tab-pane fade" id="v-pills-10" role="tabpanel" aria-labelledby="v-pills-10-tab">Text to be added</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="mt-0 mb-0">
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                          <!-- <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">Bhagat Sahibs</span>
+                          </button> -->
+                          <a class="accordion-toggle-bal" data-toggle="collapse" data-parent="#collapseTwo" href="#collapseTwo">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">Bhagat Sahibs</span> 
+                        </a>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        
+                        <div class="card-body">
+                            Text to be added...
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="mt-0 mb-0 bal-hr">
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                          <!-- <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">5 Takhat</span>
+                          </button> -->
+                          <a class="accordion-toggle-bal" data-toggle="collapse" data-parent="#collapseThree" href="#collapseThree">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">5 Takhat</span> 
+                        </a>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Text to be added...
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="mt-0 mb-0 bal-hr">
+                    <div class="card">
+                      <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                          <!-- <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">4 Dhaam</span>
+                          </button> -->
+                          <a class="accordion-toggle-bal" data-toggle="collapse" data-parent="#collapseFour" href="#collapseFour">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">4 Dhaam</span> 
+                        </a>
+                        </h2>
+                      </div>
+                      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Text to be added...
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="mt-0 mb-0 bal-hr">
+                    <div class="card">
+                      <div class="card-header" id="headingFive">
+                        <h2 class="mb-0">
+                          <!-- <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">Historical Gurudwara Sahib</span>
+                          </button> -->
+                          <a class="accordion-toggle-bal" data-toggle="collapse" data-parent="#collapseFive" href="#collapseFive">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">Historical Gurudwara Sahib</span> 
+                        </a>
+                        </h2>
+                      </div>
+                      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Text to be added...
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="mt-0 mb-0 bal-hr">
+                    <div class="card">
+                      <div class="card-header" id="headingSix">
+                        <h2 class="mb-0">
+                          <!-- <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">35 Akhar</span>
+                          </button> -->
+                          <a class="accordion-toggle-bal" data-toggle="collapse" data-parent="#collapseSix" href="#collapseSix">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">35 Akhar</span> 
+                            
+                        </a> 
+                        </h2>
+                      </div>
+                      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <span><i class="fa-lg fa fa-expand multimedia-icon float-right set-position"></i></span>
+
+                        <div class="card-body p-0">
+                          <div class="muharni">
+                          
+                          <div class="container-tabs multimedia-tabs">
+                            <div class="tab-slider-nav">
+                              <ul class="tab-slider-tabs">
+                                <li class="tab-slider-trigger active" rel="tab1">Translation Mode</li>
+                                <li class="tab-slider-trigger" rel="tab2">Paragraph Mode</li>
+                              </ul>
+                            </div>
+                            <div class="tab-slider-container">
+                      
+                              <div id="tab1" class="tab-slider-body">
+                                <div class="container">
+
+                                  <div class="one">
+                      
+                  
+                          
+                                      <div class="box-alpha interactive-circle">a</div>
+                                      <div class="box-alpha">A</div>
+                                      <div class="box-alpha">e</div>
+                                      <div class="box-alpha">s</div>
+                                      <div class="box-alpha">h</div>
+                          
+                                      <div class="box-alpha">a</div>
+                                      <div class="box-alpha">A</div>
+                                      <div class="box-alpha">e</div>
+                                      <div class="box-alpha">s</div>
+                                      <div class="box-alpha">h</div>
+                          
+                                      <div class="box-alpha">a</div>
+                                      <div class="box-alpha">A</div>
+                                      <div class="box-alpha">e</div>
+                                      <div class="box-alpha">s</div>
+                                      <div class="box-alpha">h</div>
+                          
+                                      <div class="box-alpha">a</div>
+                                      <div class="box-alpha">A</div>
+                                      <div class="box-alpha">e</div>
+                                      <div class="box-alpha">s</div>
+                                      <div class="box-alpha">h</div>
+                          
+                                      <div class="box-alpha">a</div>
+                                      <div class="box-alpha">A</div>
+                                      <div class="box-alpha">e</div>
+                                      <div class="box-alpha">s</div>
+                                      <div class="box-alpha">h</div>
+                          
+                                      <div class="box-alpha">a</div>
+                                      <div class="box-alpha">A</div>
+                                      <div class="box-alpha">e</div>
+                                      <div class="box-alpha">s</div>
+                                      <div class="box-alpha">h</div>
+                          
+                                      <div class="box-alpha">a</div>
+                                      <div class="box-alpha">A</div>
+                                      <div class="box-alpha">e</div>
+                                      <div class="box-alpha">s</div>
+                                      <div class="box-alpha">h</div>       
+                                     
+                              </div>
+                      
+                              <div class="two bg-single-letter">
+                                  <span>a</span>
+                                </div>
+                                </div>             
+                              </div>
+                      
+                              <div id="tab2" class="tab-slider-body para-mode text-white">
+                                content 2
+                              
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <hr class="mt-0 mb-0 bal-hr">
+                    <div class="card">
+                      <div class="card-header" id="headingSeven">
+                        <h2 class="mb-0">
+                          <!-- <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">Muharni</span>
+                          </button> -->
+                          <a class="accordion-toggle-bal" data-toggle="collapse" data-parent="#collapseSeven" href="#collapseSeven">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">Muharni</span> 
+                        </a>
+                        </h2>
+                      </div>
+                      <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                        <div class="card-body p-0">
+                          <span><i class="fa-lg fa fa-expand multimedia-icon float-right set-position"></i></span>
+
+                          <div class="card-body p-0">
+                            <div class="muharni">
+
+                            <div class="container-tabs multimedia-tabs">
+                              <div class="tab-slider-nav00">
+                                <ul class="tab-slider-tabs00">
+                                  <li class="tab-slider-trigger active" rel="tab3">Translation Mode</li>
+                                  <li class="tab-slider-trigger" rel="tab4">Paragraph Mode</li>
+                                </ul>
+                              </div>
+                              <div class="tab-slider-container">
+                        
+                                <div id="tab3" class="tab-slider-body00">
+                                  <div class="container">
+
+                                    <div class="three">
+                        
+                                        <div class="box-alpha ">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input invisible" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                            
+                            
+                                        <div class="box-alpha text-center">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                            
+                                        <div class="box-alpha text-center">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                            
+                                        <div class="box-alpha text-center">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                                        <div class="box-alpha text-center">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                                        <div class="box-alpha text-center">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                                        <div class="box-alpha text-center">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                                        <div class="box-alpha text-center">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                                        <div class="box-alpha text-center">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                                        <div class="box-alpha text-center">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                                        <div class="box-alpha text-center">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                                        <div class="box-alpha text-center">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                            
+                                        <div class="box-alpha text-center">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                                        
+                                        
+                            
+                                        <div class="box-alpha ">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                            </div>           
+                                            
+                                        </div>
+                            
+                                        <div class="box-alpha interactive-circle">A</div>
+                                        <div class="box-alpha">Aw</div>
+                                        <div class="box-alpha">ie</div>
+                                        <div class="box-alpha">eI</div>
+                                        <div class="box-alpha">au</div>
+                                        <div class="box-alpha">aU</div>
+                                        <div class="box-alpha">ey</div>
+                                        <div class="box-alpha">AY</div>
+                                        <div class="box-alpha">E</div>
+                                        <div class="box-alpha">AO</div>
+                                        <div class="box-alpha">AM</div>
+                                        <div class="box-alpha">AW</div>
+                            
+                                        <div class="box-alpha">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                            </div>                
+                                            
+                                        </div>
+                            
+                                        <div class="box-alpha">A</div>
+                                        <div class="box-alpha">Aw</div>
+                                        <div class="box-alpha">ie</div>
+                                        <div class="box-alpha">eI</div>
+                                        <div class="box-alpha">au</div>
+                                        <div class="box-alpha">aU</div>
+                                        <div class="box-alpha">ey</div>
+                                        <div class="box-alpha">AY</div>
+                                        <div class="box-alpha">E</div>
+                                        <div class="box-alpha">AO</div>
+                                        <div class="box-alpha">AM</div>
+                                        <div class="box-alpha">AW</div>
+                            
+                                        <div class="box-alpha">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                            
+                            
+                                        <div class="box-alpha">A</div>
+                                        <div class="box-alpha">Aw</div>
+                                        <div class="box-alpha">ie</div>
+                                        <div class="box-alpha">eI</div>
+                                        <div class="box-alpha">au</div>
+                                        <div class="box-alpha">aU</div>
+                                        <div class="box-alpha">ey</div>
+                                        <div class="box-alpha">AY</div>
+                                        <div class="box-alpha">E</div>
+                                        <div class="box-alpha">AO</div>
+                                        <div class="box-alpha">AM</div>
+                                        <div class="box-alpha">AW</div>
+                            
+                                        <div class="box-alpha">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                            
+                                        <div class="box-alpha">A</div>
+                                        <div class="box-alpha">Aw</div>
+                                        <div class="box-alpha">ie</div>
+                                        <div class="box-alpha">eI</div>
+                                        <div class="box-alpha">au</div>
+                                        <div class="box-alpha">aU</div>
+                                        <div class="box-alpha">ey</div>
+                                        <div class="box-alpha">AY</div>
+                                        <div class="box-alpha">E</div>
+                                        <div class="box-alpha">AO</div>
+                                        <div class="box-alpha">AM</div>
+                                        <div class="box-alpha">AW</div>
+                            
+                                        <div class="box-alpha">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                            
+                            
+                                        <div class="box-alpha">A</div>
+                                        <div class="box-alpha">Aw</div>
+                                        <div class="box-alpha">ie</div>
+                                        <div class="box-alpha">eI</div>
+                                        <div class="box-alpha">au</div>
+                                        <div class="box-alpha">aU</div>
+                                        <div class="box-alpha">ey</div>
+                                        <div class="box-alpha">AY</div>
+                                        <div class="box-alpha">E</div>
+                                        <div class="box-alpha">AO</div>
+                                        <div class="box-alpha">AM</div>
+                                        <div class="box-alpha">AW</div>
+                            
+                                        <div class="box-alpha">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                            
+                            
+                                        <div class="box-alpha">A</div>
+                                        <div class="box-alpha">Aw</div>
+                                        <div class="box-alpha">ie</div>
+                                        <div class="box-alpha">eI</div>
+                                        <div class="box-alpha">au</div>
+                                        <div class="box-alpha">aU</div>
+                                        <div class="box-alpha">ey</div>
+                                        <div class="box-alpha">AY</div>
+                                        <div class="box-alpha">E</div>
+                                        <div class="box-alpha">AO</div>
+                                        <div class="box-alpha">AM</div>
+                                        <div class="box-alpha">AW</div>
+                            
+                                        <div class="box-alpha">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                            
+                            
+                                        <div class="box-alpha">A</div>
+                                        <div class="box-alpha">Aw</div>
+                                        <div class="box-alpha">ie</div>
+                                        <div class="box-alpha">eI</div>
+                                        <div class="box-alpha">au</div>
+                                        <div class="box-alpha">aU</div>
+                                        <div class="box-alpha">ey</div>
+                                        <div class="box-alpha">AY</div>
+                                        <div class="box-alpha">E</div>
+                                        <div class="box-alpha">AO</div>
+                                        <div class="box-alpha">AM</div>
+                                        <div class="box-alpha">AW</div>
+                            
+                                        <div class="box-alpha">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                            
+                            
+                                        <div class="box-alpha">A</div>
+                                        <div class="box-alpha">Aw</div>
+                                        <div class="box-alpha">ie</div>
+                                        <div class="box-alpha">eI</div>
+                                        <div class="box-alpha">au</div>
+                                        <div class="box-alpha">aU</div>
+                                        <div class="box-alpha">ey</div>
+                                        <div class="box-alpha">AY</div>
+                                        <div class="box-alpha">E</div>
+                                        <div class="box-alpha">AO</div>
+                                        <div class="box-alpha">AM</div>
+                                        <div class="box-alpha">AW</div>
+                            
+                                        <div class="box-alpha">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                            
+                            
+                                        <div class="box-alpha">A</div>
+                                        <div class="box-alpha">Aw</div>
+                                        <div class="box-alpha">ie</div>
+                                        <div class="box-alpha">eI</div>
+                                        <div class="box-alpha">au</div>
+                                        <div class="box-alpha">aU</div>
+                                        <div class="box-alpha">ey</div>
+                                        <div class="box-alpha">AY</div>
+                                        <div class="box-alpha">E</div>
+                                        <div class="box-alpha">AO</div>
+                                        <div class="box-alpha">AM</div>
+                                        <div class="box-alpha">AW</div>
+                            
+                                        <div class="box-alpha">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                            
+                            
+                                        <div class="box-alpha">A</div>
+                                        <div class="box-alpha">Aw</div>
+                                        <div class="box-alpha">ie</div>
+                                        <div class="box-alpha">eI</div>
+                                        <div class="box-alpha">au</div>
+                                        <div class="box-alpha">aU</div>
+                                        <div class="box-alpha">ey</div>
+                                        <div class="box-alpha">AY</div>
+                                        <div class="box-alpha">E</div>
+                                        <div class="box-alpha">AO</div>
+                                        <div class="box-alpha">AM</div>
+                                        <div class="box-alpha">AW</div>
+                            
+                                        <div class="box-alpha">
+                                            
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                                            </div>                
+                                            
+                                        </div>
+                            
+                            
+                                        <div class="box-alpha">A</div>
+                                        <div class="box-alpha">Aw</div>
+                                        <div class="box-alpha">ie</div>
+                                        <div class="box-alpha">eI</div>
+                                        <div class="box-alpha">au</div>
+                                        <div class="box-alpha">aU</div>
+                                        <div class="box-alpha">ey</div>
+                                        <div class="box-alpha">AY</div>
+                                        <div class="box-alpha">E</div>
+                                        <div class="box-alpha">AO</div>
+                                        <div class="box-alpha">AM</div>
+                                        <div class="box-alpha">AW</div>   
+                                </div>
+                        
+                                <div class="four bg-single-letter">
+                                    <span>A</span>
+                                  </div>
+                                  </div>         
+                                </div>
+                        
+                                <div id="tab4" class="tab-slider-body00 para-mode text-white">
+                                  content 2
+                                
+                                      </div>
+                                      </div>
+                                  </div>
+                          </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="mt-0 mb-0 bal-hr">
+                    <div class="card">
+                      <div class="card-header" id="headingEight">
+                        <h2 class="mb-0">
+                          <!-- <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">Counting</span>
+                          </button> -->
+                          <a class="accordion-toggle-bal" data-toggle="collapse" data-parent="#collapseEight" href="#collapseEight">
+                            <span class="text-03 mr-3">Text to be added</span> <span class="text-003">Counting</span> 
+                        </a>
+                        </h2>
+                      </div>
+                      <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Text to be Added
+                        </div>
+                      </div>
+                    </div>
+                    <hr class="mt-0 mb-0 bal-hr">
+                  </div>                
+                
+                
+                  </div>
+
+                <div class="tab-pane fade text-white" id="nav-literature" role="tabpanel" aria-labelledby="nav-about-tab">
+                    <div class="row mt-3"> 
+
+                        <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
+                  
+                          <div class="inner-blocks-literature pl-4 pro-00">
+                            <div class="top-content">  
+                              <span class="float-left text-lit-01">Series Title</span> <br>
+                              
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                              <span class="title">Text To Be Added</span>
+                              </div>
+                            </div> 
+                    
+                            </div>
+                              <div class="ScrollStyle">
+                                  <div class="text mr-4">  
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                                      
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                                    </div>
+                              </div> 
+                          </div>
+                  
+                        
+                        </div>
+                  
+                        <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
+                  
+                          <div class="inner-blocks-literature pl-4 pro">
+                            <div class="top-content">  
+                              <span class="float-left text-lit-001">Series Title</span> <br>
+                              
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                              <span class="title">Text To Be Added</span>
+                              </div>
+                            </div> 
+                    
+                            </div>
+                              <div class="ScrollStyle">
+                                  <div class="text mr-4">  
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                                      
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                                    </div>
+                              </div> 
+                          </div>
+                  
+                        
+                        </div>
+                  
+                        <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
+                  
+                          <div class="inner-blocks-literature pl-4 pro-00">
+                            <div class="top-content ">  
+                              <span class="float-left text-lit-01">Series Title</span> <br>
+                              
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                              <span class="title">Text To Be Added</span>
+                              </div>
+                            </div> 
+                    
+                            </div>
+                              <div class="ScrollStyle">
+                                  <div class="text mr-4">  
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                                      
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                                    </div>
+                              </div> 
+                          </div>
+                  
+                        
+                        </div>
+                      
+                        
+                      </div>
+                  
+                    
+                  
+                      <div class="row mt-5"> 
+                  
+                        <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
+                  
+                          <div class="inner-blocks-literature pl-4 pro">
+                            <div class="top-content">  
+                              <span class="float-left text-lit-001">Series Title</span> <br>
+                              
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                              <span class="title">Text To Be Added</span>
+                              </div>
+                            </div> 
+                    
+                            </div>
+                              <div class="ScrollStyle">
+                                  <div class="text mr-4">  
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                                      
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                                    </div>
+                              </div> 
+                          </div>
+                        </div>
+                  
+                        <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
+                  
+                          <div class="inner-blocks-literature pl-4 pro-00">
+                            <div class="top-content ">  
+                              <span class="float-left text-lit-01">Series Title</span> <br>
+                              
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                              <span class="title">Text To Be Added</span>
+                              </div>
+                            </div> 
+                    
+                            </div>
+                              <div class="ScrollStyle">
+                                  <div class="text mr-4">  
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                                      
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                                    </div>
+                              </div> 
+                          </div>
+                  
+                        
+                        </div>
+                  
+                        <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
+                  
+                          <div class="inner-blocks-literature pl-4 pro">
+                            <div class="top-content">  
+                              <span class="float-left text-lit-001">Series Title</span> <br>
+                              
+                            <div class="progress">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                              <span class="title">Text To Be Added</span>
+                              </div>
+                            </div> 
+                    
+                            </div>
+                              <div class="ScrollStyle">
+                                  <div class="text mr-4">  
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                    
+                                      <div class="box py-2 px-3 mt-2 rounded">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                                      
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                        
+                                      <div class="box py-2 px-3 mt-2">
+                                        <span class="float-left text-lit-02">Text to be Added</span> <br>
+                                        <p class="text-lit-03">Book Title or Chapter Name</p> 
+                                      </div>
+                                    </div>
+                              </div> 
+                          </div>
+                        </div>
+                  
+                      </div>
+                
+                </div>
+
+                <div class="tab-pane fade text-white" id="nav-multimedia" role="tabpanel" aria-labelledby="nav-about-tab">
+                    Text To Be Added...                
+                  </div>
+
+                <div class="tab-pane fade text-white" id="nav-resources" role="tabpanel" aria-labelledby="nav-about-tab">
+                  <section>
+                    <!-- DAILY DOSE -->
+                    
+                    <!-- DAILY DOSE -->
+        
+        <div class="container">
+          <div class="row">
+          <div class="col-lg-5 col-md-12 col-sm-12 pl-0 pr-4 mt-4">
+            <div class="inner-dose daily-dose rounded p-4">
+              <h5 class="d-inline">Daily Dose</h5><img src="images/Daily Dose Icon.svg" alt="" class="float-right ml-4">     
+              
+            <div class="Scroll-style mt-3">
+
+              <div class="dose-player">
+                <span class="circle-play"><i class="fa-regular fa-circle-play mr-3 float-left"></i></span>
+                
+                <span>JUST IN FROM BHAGAT JI</span>
+                
+              </div>
+            
+            <div class="recent p-3 mt-3 mb-2">
+              <p>Voluptatibus placeat alias a libero rerum, sapiente, nihil eaque quia laboriosam dolorum veritatis ratione aperiam laborum adipisci quidem repudiandae maxime! Nobis, dignissimos!</p>
+              <span>Date of Bachan</span>
+            </div>
+
+            <span class="recent-title">RECENT</span>
+
+            <div class="recent p-3 mt-3">
+              <p>Voluptatibus placeat alias a libero rerum, sapiente, nihil eaque quia laboriosam dolorum veritatis ratione aperiam laborum adipisci quidem repudiandae maxime! Nobis, dignissimos!</p>
+              <span>Date of Bachan</span>
+            </div>
+
+            <div class="recent p-3 mt-3">
+              <p>Voluptatibus placeat alias a libero rerum, sapiente, nihil eaque quia laboriosam dolorum veritatis ratione aperiam laborum adipisci quidem repudiandae maxime! Nobis, dignissimos!</p>
+              <span>Date of Bachan</span>
+            </div>
+
+            <div class="recent p-3 mt-3 mb-2">
+              <p>Voluptatibus placeat alias a libero rerum, sapiente, nihil eaque quia laboriosam dolorum veritatis ratione aperiam laborum adipisci quidem repudiandae maxime! Nobis, dignissimos!</p>
+              <span>Date of Bachan</span>
+            </div>
+
+            <span class="older-title">OLDER</span>
+
+            <div class="recent p-3 mt-3">
+              <p>Voluptatibus placeat alias a libero rerum, sapiente, nihil eaque quia laboriosam dolorum veritatis ratione aperiam laborum adipisci quidem repudiandae maxime! Nobis, dignissimos!</p>
+              <span>Date of Bachan</span>
+            </div>
+
+            <div class="recent p-3 mt-3">
+              <p>Voluptatibus placeat alias a libero rerum, sapiente, nihil eaque quia laboriosam dolorum veritatis ratione aperiam laborum adipisci quidem repudiandae maxime! Nobis, dignissimos!</p>
+              <span>Date of Bachan</span>
+            </div>
+
+            <div class="recent p-3 mt-3">
+              <p>Voluptatibus placeat alias a libero rerum, sapiente, nihil eaque quia laboriosam dolorum veritatis ratione aperiam laborum adipisci quidem repudiandae maxime! Nobis, dignissimos!</p>
+              <span>Date of Bachan</span>
+            </div>
+
+          </div>
+            
+            </div>
+          </div>
+
+          <!-- Favourites -->
+
+          <div class="col-lg-7 col-md-12 col-sm-12 pl-0 pr-0 mt-4">
+            <div class="inner-fav fav rounded p-4">
+              <h5 class="d-inline">Favourites</h5> <img src="images/star.svg" alt="" class="float-right ml-4">
+                 
+            
+            <div class="Scroll-style-fav mt-3">
+
+              <div class="accordion" id="accordion2">
+
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                            <span class="fav-accord mr-3">Folder Name</span> <br> <span class="fav-date">Date Created</span>
+                        </a>
+                    </div>
+
+                    <div id="collapseOne" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+        
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                            <span class="fav-accord mr-3">Folder Name</span> <br> <span class="fav-date">Date Created</span>
+                        </a>
+                     </div>
+        
+                    <div id="collapseTwo" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            <hr>                          
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <img src="images/Pothi Sahib Icon.svg" alt="" class="float-right">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                            <span class="fav-accord mr-3">Folder Name</span> <br> <span class="fav-date">Date Created</span>
+                            
+                          </a>
+                     </div>
+        
+                    <div id="collapseThree" class="accordion-body collapse show">
+                        <div class="accordion-inner">
+                            <hr>
+                            
+
+                              <div class="grid-container">
+
+                                <div class="grid-item1">
+                                  <div id="listResultsResource" class="d-inline float-left">
+                                    <div class="checkbox checkbox-circle">
+                                      <input id="checkbox1" type="checkbox" checked>
+                                      <label></label>
+                                    </div>
+                                </div>
+                                </div>
+
+                                <div class="grid-item2">
+                                    <p>Text to be Added</p>
+                                    <span>Source, Ang 324, Pangti 9</span>
+                                </div>
+
+                                <div class="grid-item1">
+                                  <div id="listResultsResource" class="listResults d-inline float-left">
+                                    <div class="checkbox checkbox-circle">
+                                      <input id="checkbox1" type="checkbox" checked>
+                                      <label></label>
+                                    </div>
+                                </div>
+                                </div>
+
+                                <div class="grid-item2">
+                                    <p>Text to be Added</p>
+                                    <span>Source, Ang 324, Pangti 9</span>
+                                </div>
+
+                                <div class="grid-item1">
+                                  <div id="listResultsResource" class="listResults d-inline float-left">
+                                    <div class="checkbox checkbox-circle">
+                                      <input id="checkbox1" type="checkbox" checked>
+                                      <label></label>
+                                    </div>
+                                </div>
+                                </div>
+
+                                <div class="grid-item2">
+                                    <p>Text to be Added</p>
+                                    <span>Source, Ang 324, Pangti 9</span>
+                                </div>
+
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+             
+          </div>
+            
+            </div>
+          </div>
+
+          
+        </div>
+        </div>
+        
+        <!-- NOTES -->
+        <div class="container notes rounded p-5 mt-3">
+        <div class="top-content mb-5">
+          <h5>Notes</h5> 
+          <img src="images/Notes Icon.svg" alt="" class="ml-4 float-right">
+        
+          <img src="images/Fullscreen.svg" alt="" class="ml-4 float-right">
+          <i class="fa-solid fa-plus ml-4 float-right" aria-hidden="true"></i>
+
+        </div>
+
+        <div class="Scrollstyle">
+
+          <div class="row">
+
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr class="folder-data-hr">
+            </div>
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+          </div>
+  
+          <div class="row">
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div>
+  
+            <div class="col-lg-6 col-md-12 col-sm-12 folder-data">
+              <p>Folder Name</p>
+              <span>Date Created</span>
+              <hr>
+            </div> 
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Kamaiyi & Reminders -->
+
+      <div class="container mt-4 pr-0 pl-0 ">
+
+        <div class="row">
+
+          <div class="col-lg-8 col-md-12 col-sm-12 mt-4 pr-3">
+            <div class="inner kamaiyi rounded p-4">
+            <h5 class="d-inline">Kamaiyi</h5><span><img src="images/Kamaiyi & Goals Icon.svg" alt="" class="float-right ml-4"></span>
+            <span><i class="fa-solid fa-plus ml-4 float-right" aria-hidden="true"></i></span> 
+
+              <div class="Scroll-style mt-4">
+                <div class="kamaiyi-details p-4 rounded">
+       
+                  <h5 class="d-inline mr-2">Mool Mantar Jaap</h5> <span class="small-details">Due Tonight: Daily Goal</span>
+                  
+                  <i class="fa-solid fa-share ml-3 float-right mt-3" aria-hidden="true"></i>
+                  <i class="fa-solid fa-pencil float-right mt-3" aria-hidden="true"></i> 
+        
+                  <div class="progress">
+                    <div class="progress-bar d-flex justify-content-stretch" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%"> 
+                      <span ><i class="fa-solid fa-minus ml-4 d-flex mr-auto"></i></span>
+                      <span class="p-title ml-auto mr-3">51</span>
+                    </div>
+                  </div>
+        
+                  <div class="sub-progress">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                      <span class="title"></span>
+                    </div>
+                  </div>
+                  </div>
+        
+                <div class="daily-report p-3">
+                  <p class="">Daily Goal <span class="ml-3">101</span></p>
+                  <p class="">Completed <span class="ml-3">98 202</span></p>
+                  <p class="">Total Goal <span class="ml-3">125000</span></p>
+                  <p class="">Deadline <span class="ml-3">July 02,2021</span></p>
+        
+                </div>
+                </div>
+                  
+                <div class="kamaiyi-details p-4 rounded mt-4">
+               
+                    <h5 class="d-inline mr-2">Gur Mantar Jaap</h5> <span class="small-details">Due Tonight: Daily Goal</span>
+                    <i class="fa-solid fa-share ml-3 float-right mt-3" aria-hidden="true"></i>
+                  <i class="fa-solid fa-pencil float-right mt-3" aria-hidden="true"></i> 
+          
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%"> 
+                        <span><i class="fa fa-pause float-left ml-4 d-inline" aria-hidden="true"></i></span>
+                        <span class="p-title ml-auto mr-3">51</span>
+                      </div>
+                    </div>
+          
+                  <div class="daily-report p-3">
+                    <p class="">Daily Goal <span class="ml-3">10:00</span></p>
+                    <p class="">Completed <span class="ml-3">3:18</span></p>
+                  </div>
+                </div>
+        
+                <div class="kamaiyi-details p-4 rounded mt-4">
+               
+                  <h5 class="d-inline mr-2">Nitnem</h5> <span class="small-details">Due Tonight: Daily Goal</span>
+                  <i class="fa-solid fa-share ml-3 float-right mt-3" aria-hidden="true"></i>
+                  <i class="fa-solid fa-pencil float-right mt-3" aria-hidden="true"></i> 
+        
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%"> 
+                      <span class="title text-right mr-4 p-title">5/7</span>
+                    </div>
+                  </div>
+        
+                <div class="daily-report-strike p-3">
+                  
+                  <div class="items item1">Daily Goal</div>
+                  <div class="items item2"><del>Japji Sahib</del></div>
+                  <div class="items item3"><del>Jaap Sahib</del></div>
+                  <div class="items item4"><del>Tav Prasad Savaeiay</del></div>
+                  <div class="items item5"><del>Chaupai Sahib</del></div>
+                  <div class="items item6"><del>Anand Sahib</del></div>
+                  <div class="items item7">Rehiras Sahib</div>
+
+                </div>
+        
+        
+                </div>
+        
+                <div class="kamaiyi-details p-4 rounded mt-4">
+               
+                  <h5 class="d-inline mr-2">Personal Sehaj Paath - Aad</h5> <span class="small-details">Due Tonight: Daily Goal</span>
+                  <i class="fa-solid fa-share ml-3 float-right mt-3" aria-hidden="true"></i>
+                  <i class="fa-solid fa-pencil float-right mt-3" aria-hidden="true"></i> 
+
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%"> 
+                      <span ><i class="fa-solid fa-minus ml-4 d-flex mr-auto"></i></span>
+                      <span class="p-title text-right mr-4">17/30 Ang 879</span>
+                    </div>
+                  </div>
+        
+                  <div class="sub-progress">
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%">
+                      <span class="title"></span>
+                    </div>
+                  </div>
+                  </div>
+        
+                <div class="daily-report p-3">
+                  <p class="">Daily Goal <span class="ml-3">101</span></p>
+                  <p class="">Completed <span class="ml-3">98 202</span></p>
+                  <p class="">Total Goal <span class="ml-3">125000</span></p>
+                  <p class="">Deadline <span class="ml-3">July 02,2021</span></p>
+        
+                </div>
+                </div>
+        
+                <div class="kamaiyi-details p-4 rounded mt-4">
+               
+                  <h5 class="d-inline mr-2">Exercise</h5> <span class="small-details">Due Tonight: Daily Goal</span>
+                  <i class="fa-solid fa-share ml-3 float-right mt-3" aria-hidden="true"></i>
+                  <i class="fa-solid fa-pencil float-right mt-3" aria-hidden="true"></i> 
+        
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="max-width: 60%"> 
+                      <span class="p-title text-right mr-4">3/10</span>
+                    </div>
+                  </div>
+
+                  <div class="daily-report-strike p-3">
+                  
+                    <div class="items item1">Daily Goal</div>
+                    <div class="items item2"><del>12 Minute Ru</del></div>
+                    <div class="items item3"><del>20 Jumping Jacks</del></div>
+                    <div class="items item4"><del>2 Minutes High Knees</del></div>
+                    <div class="items item5">Exercise</div>
+                    <div class="items item6">Exercise</div>
+                    <div class="items item7">Exercise</div>
+  
+                  </div>
+                </div>
+
+                <div class="last mt-3">
+                  <span class="mt-3 d-inline ">OLDER</span>
+                  <i class="fa-lg fa fa-angle-down float-right ml-4 mt-3" aria-hidden="true"></i>
+                  
+                </div>
+              </div>
+            </div>
+
+
+        </div>
+        <!-- Reminders -->
+
+        <div class="col-lg-4 col-md-12 col-sm-12 mt-4">
+
+          <div class="inner-00 reminders rounded p-4">
+
+          <h5 class="d-inline">Reminders</h5><span><img src="images/Reminders Icon.svg" alt="" class="float-right ml-4"></span>
+          <span><i class="fa-solid fa-plus ml-4 float-right" aria-hidden="true"></i></span> 
+
+            <div class="Scroll-style mt-4">
+              
+                <p class="text-white reminders-name rounded py-3 px-3">Mool Mantar Jaap <span class="float-right yellow">Due Tonight</span></p>
+                <p class="text-white reminders-name rounded py-3 px-3">Rehiraas Sahib <span class="float-right">6:30 PM</span></p>
+                <p class="text-white reminders-name rounded py-3 px-3">Sohila Sahib <span class="float-right">9:30 PM</span></p>
+                <p class="text-white reminders-name rounded py-3 px-3">Sangrand <span class="float-right">March 13, 2021</span></p>
+                <p class="text-white reminders-name rounded py-3 px-3">Reminder Name <span class="float-right">Due Tonight</span></p>
+                <p class="text-white reminders-name rounded py-3 px-3">Reminder Name <span class="float-right">Due Tonight</span></p>
+                <p class="text-white reminders-name rounded py-3 px-3">Reminder Name <span class="float-right">Due Tonight</span></p>
+                <p class="text-white reminders-name rounded py-3 px-3">Reminder Name <span class="float-right">Due Tonight</span></p>
+                <p class="text-white reminders-name rounded py-3 px-3 ">Reminder Name <span class="float-right">Due Tonight</span></p>
+
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- NOTES TABLE STYLE -->
+
+      <div class="container notes-table rounded p-5 mt-3">
+        <div class="top-content mb-5">
+          <h5 class="d-inline">Notes</h5> 
+          <img src="images/Notes Icon.svg" alt="" class="ml-4 float-right">
+        
+          <img src="images/Fullscreen.svg" alt="" class="ml-4 float-right">
+          <i class="fa-solid fa-plus ml-4 float-right" aria-hidden="true"></i>
+          <span class="switch-color float-right">Switch to List View</span> 
+        </div>
+
+        <div class="Scroll-table mt-4">
+          <table>
+            <thead>
+              <tr class="table-heading">
+                <th class="left-border">AMg</th>
+                <th>pMgql</th>
+                <th class="right-border">Note Preview</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="text-center">834</td>
+                <td class="text-center">14</td>
+                <td class="border-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fuga beatae, 
+                  consequuntur animi enim aperiam ab odit mollitia sed modi, magnam blanditiis 
+                  cupiditate asperiores omnis nihil illum exercitationem rem quos!</td>
+              </tr>
+              <tr>
+                <td class="text-center">834</td>
+                <td class="text-center">14</td>
+                <td class="border-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fuga beatae, 
+                  consequuntur animi enim aperiam ab odit mollitia sed modi, magnam blanditiis 
+                  cupiditate asperiores omnis nihil illum exercitationem rem quos!</td>
+              </tr>
+              <tr>
+                <td class="text-center">834</td>
+                <td class="text-center">14</td>
+                <td class="border-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fuga beatae, 
+                  consequuntur animi enim aperiam ab odit mollitia sed modi, magnam blanditiis 
+                  cupiditate asperiores omnis nihil illum exercitationem rem quos!</td>
+              </tr>
+              <tr>
+                <td class="text-center">834</td>
+                <td class="text-center">14</td>
+                <td class="border-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fuga beatae, 
+                  consequuntur animi enim aperiam ab odit mollitia sed modi, magnam blanditiis 
+                  cupiditate asperiores omnis nihil illum exercitationem rem quos!</td>
+              </tr>
+            </tbody>
+               
+          </table>
+
+          <div class="table-middle-title mt-5"><p>DASAM SRI GURU GRANTH SAHIB JI</p></div>
+
+          <table class="table-01">
+
+            <thead class="invisible">
+              <tr class="table-heading">
+                <th class="left-border">AMg</th>
+                <th>pMgql</th>
+                <th class="right-border">Note Preview</th>
+              </tr>
+            </thead>
+            
+            <tbody>
+              <tr>
+                <td class="text-center">834</td>
+                <td class="text-center">14</td>
+                <td class="border-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fuga beatae, 
+                  consequuntur animi enim aperiam ab odit mollitia sed modi, magnam blanditiis 
+                  cupiditate asperiores omnis nihil illum exercitationem rem quos!</td>
+              </tr>
+              <tr>
+                <td class="text-center">834</td>
+                <td class="text-center">14</td>
+                <td class="border-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fuga beatae, 
+                  consequuntur animi enim aperiam ab odit mollitia sed modi, magnam blanditiis 
+                  cupiditate asperiores omnis nihil illum exercitationem rem quos!</td>
+              </tr>
+              <tr>
+                <td class="text-center">834</td>
+                <td class="text-center">14</td>
+                <td class="border-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fuga beatae, 
+                  consequuntur animi enim aperiam ab odit mollitia sed modi, magnam blanditiis 
+                  cupiditate asperiores omnis nihil illum exercitationem rem quos!</td>
+              </tr>
+              <tr>
+                <td class="text-center">834</td>
+                <td class="text-center">14</td>
+                <td class="border-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fuga beatae, 
+                  consequuntur animi enim aperiam ab odit mollitia sed modi, magnam blanditiis 
+                  cupiditate asperiores omnis nihil illum exercitationem rem quos!</td>
+              </tr>
+            </tbody>
+               
+          </table>
+          
+        </div>
+
+      </div>
+
+      <!-- NOTES TABLE STYLE -->
+
+      <!-- NOTES LIST STYLE -->
+
+      <div class="container notes-table rounded p-5 mt-3">
+        <div class="top-content mb-5">
+          <h5 class="d-inline">Notes</h5> 
+          <img src="images/Notes Icon.svg" alt="" class="ml-4 float-right">
+        
+          <img src="images/Fullscreen.svg" alt="" class="ml-4 float-right">
+          <i class="fa-solid fa-plus ml-4 float-right" aria-hidden="true"></i>
+          <span class="switch-color float-right">Switch to List View</span> 
+        </div>
+
+        <div class="row Scroll-list-notes">
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="inner-notes-list-style">
+
+            <div class="notes-list-style-content">
+              <h4>Lorem ipsum dolor sit.]</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis saepe commodi esse consequuntur dolore eveniet vitae non exercitationem inventore sapiente est quisquam enim amet! Quae eligendi laborum molestiae quia!</p>
+              <span>Source, Ang 324, Pangti 9</span>
+            </div>
+            <hr>
+
+            <div class="notes-list-style-content">
+              <h4>Lorem ipsum dolor sit.]</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis saepe commodi esse consequuntur dolore eveniet vitae non exercitationem inventore sapiente est quisquam enim amet! Quae eligendi laborum molestiae quia!</p>
+              <span>Source, Ang 324, Pangti 9</span>
+            </div>
+            <hr>
+
+            <div class="notes-list-style-content">
+              <h4>Lorem ipsum dolor sit.]</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis saepe commodi esse consequuntur dolore eveniet vitae non exercitationem inventore sapiente est quisquam enim amet! Quae eligendi laborum molestiae quia!</p>
+              <span>Source, Ang 324, Pangti 9</span>
+            </div>
+            <hr>
+
+            <div class="notes-list-style-content">
+              <h4>Lorem ipsum dolor sit.]</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis saepe commodi esse consequuntur dolore eveniet vitae non exercitationem inventore sapiente est quisquam enim amet! Quae eligendi laborum molestiae quia!</p>
+              <span>Source, Ang 324, Pangti 9</span>
+            </div>
+            <hr>
+
+            <div class="notes-list-style-content">
+              <h4>Lorem ipsum dolor sit.]</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis saepe commodi esse consequuntur dolore eveniet vitae non exercitationem inventore sapiente est quisquam enim amet! Quae eligendi laborum molestiae quia!</p>
+              <span>Source, Ang 324, Pangti 9</span>
+            </div>
+            <hr>
+
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="inner-notes-list-style">
+
+            <div class="notes-list-style-content">
+              <h4>Lorem ipsum dolor sit.]</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis saepe commodi esse consequuntur dolore eveniet vitae non exercitationem inventore sapiente est quisquam enim amet! Quae eligendi laborum molestiae quia!</p>
+              <span>Source, Ang 324, Pangti 9</span>
+            </div>
+            <hr>
+
+            <div class="notes-list-style-content">
+              <h4>Lorem ipsum dolor sit.]</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis saepe commodi esse consequuntur dolore eveniet vitae non exercitationem inventore sapiente est quisquam enim amet! Quae eligendi laborum molestiae quia!</p>
+              <span>Source, Ang 324, Pangti 9</span>
+            </div>
+            <hr>
+
+            <div class="notes-list-style-content">
+              <h4>Lorem ipsum dolor sit.]</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis saepe commodi esse consequuntur dolore eveniet vitae non exercitationem inventore sapiente est quisquam enim amet! Quae eligendi laborum molestiae quia!</p>
+              <span>Source, Ang 324, Pangti 9</span>
+            </div>
+            <hr>
+
+            <div class="notes-list-style-content">
+              <h4>Lorem ipsum dolor sit.]</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis saepe commodi esse consequuntur dolore eveniet vitae non exercitationem inventore sapiente est quisquam enim amet! Quae eligendi laborum molestiae quia!</p>
+              <span>Source, Ang 324, Pangti 9</span>
+            </div>
+            <hr>
+
+            <div class="notes-list-style-content">
+              <h4>Lorem ipsum dolor sit.]</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, reiciendis saepe commodi esse consequuntur dolore eveniet vitae non exercitationem inventore sapiente est quisquam enim amet! Quae eligendi laborum molestiae quia!</p>
+              <span>Source, Ang 324, Pangti 9</span>
+            </div>
+            <hr>
+
+
+          </div>
+        </div>
+      
+      </div>
+      </div>      
+
+      <!-- NOTES LIST STYLE -->
+
+      <!-- VIEW NOTE -->
+
+      <div class="container notes-table rounded p-5 mt-3">
+        <div class="top-content mb-5">
+          <h5 class="d-inline">Notes</h5> 
+          <img src="images/Notes Icon.svg" alt="" class="ml-4 float-right">
+        
+          <img src="images/Fullscreen.svg" alt="" class="ml-4 float-right">
+          <i class="fa-solid fa-plus ml-4 float-right" aria-hidden="true"></i>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <span class="folder-path">FOLDER PATH/FOLDER PATH/NOTE NAME</span>
+
+            <p class="folder-title mt-4">AwKih mMgih dyih dyih dwiq kry dwqwru ]</p>
+            <span class="sub-title">Awik | mMgih | dyih</span> <br>
+            <span class="explain">mMgih: K`Kw Aqy g`gw mukqw bolo, ishwrI sMkoc ky bolo, ksky nhI bolxIAW</span> <br>
+            <span class="english-version">Aakhehi mangehi dhaehi dhaehi daath karae daathaar</span> <br>
+            <span class="english-meaning">Aakhehi mangehi dhaehi dhaehi daath karae daathaar</span> <br>
+
+            <p class="border-content mt-3"> <span class="b-pink mr-1"></span> pihlw ArQ AYQy hovygw jI[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus blandit leo, nec convallis eros pulvinar et. Etiam non mi vitae lectus tincidunt cursus. Mauris non aliquam dolor</p>
+            <p class="border-content"> <span class="b-blue mr-1"></span> dUjw ArQ AYQy hovygw jI[Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="border-content"> <span class="b-orange mr-1"></span> qIjw ArQ AYQy hovygw jI[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus blandit leo, nec convallis</p>
+
+            <div class="scrollable Scroll-view-notes">
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam odio ipsum, illo perspiciatis mollitia porro. Eaque alias ratione voluptatum tempora corrupti veniam asperiores doloremque earum veritatis sunt unde, placeat, quia sequi dolor sed beatae. Tenetur aliquam cum distinctio ducimus ipsum pariatur, repellat a minima architecto temporibus, id ex debitis voluptatem nisi accusamus fugit repudiandae mollitia omnis. Beatae eaque iste, numquam molestiae modi cupiditate fugit sequi quidem autem perferendis velit, repudiandae laboriosam animi ipsam nemo neque sit est facere rerum inventore illum accusantium harum, repellat tempore? Error laboriosam dolorum iure unde ex quisquam libero earum, fuga mollitia perferendis accusamus ab temporibus?</p>
+          
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam odio ipsum, illo perspiciatis mollitia porro. Eaque alias ratione voluptatum tempora corrupti veniam asperiores doloremque earum veritatis sunt unde, placeat, quia sequi dolor sed beatae. Tenetur aliquam cum distinctio ducimus ipsum pariatur, repellat a minima architecto temporibus, id ex debitis voluptatem nisi accusamus fugit repudiandae mollitia omnis. Beatae eaque iste, numquam molestiae modi cupiditate fugit sequi quidem autem perferendis velit, repudiandae laboriosam animi ipsam nemo neque sit est facere rerum inventore illum accusantium harum, repellat tempore? Error laboriosam dolorum iure unde ex quisquam libero earum, fuga mollitia perferendis accusamus ab temporibus?</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam odio ipsum, illo perspiciatis mollitia porro. Eaque alias ratione voluptatum tempora corrupti veniam asperiores doloremque earum veritatis sunt unde, placeat, quia sequi dolor sed beatae. Tenetur aliquam cum distinctio ducimus ipsum pariatur, repellat a minima architecto temporibus, id ex debitis voluptatem nisi accusamus fugit repudiandae mollitia omnis. Beatae eaque iste, numquam molestiae modi cupiditate fugit sequi quidem autem perferendis velit, repudiandae laboriosam animi ipsam nemo neque sit est facere rerum inventore illum accusantium harum, repellat tempore? Error laboriosam dolorum iure unde ex quisquam libero earum, fuga mollitia perferendis accusamus ab temporibus?</p>
+            
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- VIEW NOTE -->
+
+      <!-- ADD A NEW NOTE -->
+      <button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target="#noteModal">
+        Add A NEW NOTE
+      </button>
+
+      <!-- Modal -->
+      <div class="add-note">
+      <div class="modal fade" id="noteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h5 class="modal-title" id="exampleModalLabel">NEW NOTE</h5>
+
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-12">
+                  <form action="" method="GET" class="form-main add-note-first nofloat-xs pull-right pull-left-sm">    
+                    <div class="form-group form-input-fields form-group-lg has-feedback">
+          
+                      <label class="sr-only" for="search">Search</label>
+                      <div class="input-group form-outline w-75">
+                        <input type="text" class="form-control input-search" name="q" id="search" placeholder="Select Folder">
+                        <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                        <i class="fa-lg fa fa-search text-white mr-3 mt-4" aria-hidden="true"></i>
+                      </div>
+          
+                    </div>
+                  </form>
+                
+                  <p class="folder-title mt-1">AwKih mMgih dyih dyih dwiq kry dwqwru ]</p>
+                  <span class="sub-title">Awik | mMgih | dyih</span> <br>
+                  <span class="explain">mMgih: K`Kw Aqy g`gw mukqw bolo, ishwrI sMkoc ky bolo, ksky nhI bolxIAW</span> <br>
+                  <span class="english-version">Aakhehi mangehi dhaehi dhaehi daath karae daathaar</span> <br>
+                  <span class="english-meaning">Aakhehi mangehi dhaehi dhaehi daath karae daathaar</span> <br>
+      
+                  <p class="border-content mt-3"> <span class="b-pink mr-1"></span> pihlw ArQ AYQy hovygw jI[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus blandit leo, nec convallis eros pulvinar et. Etiam non mi vitae lectus tincidunt cursus. Mauris non aliquam dolor</p>
+                  <p class="border-content"> <span class="b-blue mr-1"></span> dUjw ArQ AYQy hovygw jI[Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <p class="border-content"> <span class="b-orange mr-1"></span> qIjw ArQ AYQy hovygw jI[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus blandit leo, nec convallis</p>
+      
+                  <form action="">
+                  <div class="form-group">
+                    <!-- <label for="exampleFormControlTextarea1">Example textarea</label> -->
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="]Start typing here..."></textarea>
+                  </div>
+                </form>
+      
+                </div>
+              </div>
+              <div class="add-note-last">
+                <form action="" method="GET" class="form-main form-inline nofloat-xs pull-right pull-left-sm">
+    
+                  <div class="form-group form-input-fields form-group-lg has-feedback">
+        
+                    <label class="sr-only" for="search">Search</label>
+                    <div class="input-group">
+                      <input onclick="myFunctionNote()" type="text" class="form-control input-search" name="q" id="search" placeholder="Select Folder">
+                      <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                      <i class="fa-lg fa fa-angle-down mr-4 mt-4 text-white" aria-hidden="true"></i>
+                    </div>
+
+                    <button type="submit" class="btn btn-outline-light btn-submit px-5 add-btn ml-3">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span> Add 
+                    </button>
+
+                  </div>
+                </form>
+
+                <div id="myNoteList" class="add-note-last-list">
+                  <ul>
+                    
+                      <li class="note-color">Add a New Folder <i class="fa fa-plus float-right note-color mt-2" aria-hidden="true"></i></li> 
+                      <li><textarea id="add-note-textarea" placeholder="Describe yourself here..." rows="1" cols="14">
+                        It was a dark and stormy night...
+                        </textarea></li>
+                      <li>Folder Name</li>
+                      <li>Folder Name</li>
+                      <li>Folder Name</li>
+                      <li>Folder Name</li>
+                      <li>Folder Name</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- ADD A NEW TRACKER -->
+
+          <button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target="#trackerModal">
+            Add A NEW TRACKER
+          </button>
+
+          <!-- Modal -->
+          <div class="add-tracker">
+          <div class="modal fade" id="trackerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h5 class="modal-title" id="exampleModalLabel">NEW TRACKER</h5>
+
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+
+                    <div class="col-6">
+                      <form action="" method="GET" class="form-main add-tracker-first nofloat-xs pull-right pull-left-sm">
+                        <div class="form-group form-input-fields form-group-lg has-feedback">   
+                          <label for="tracker" class="text-white first-label">Tracker Name</label>
+                          <div class="input-group">
+                            <input type="text" class="form-control input-search" name="q" id="tracker" placeholder="Name of Tracker here">
+                            <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                    <div class="col-6">
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+                  
+                    <div class="col-6 add-tracker-last">
+                      <form action="" method="GET" class="form-main nofloat-xs pull-right pull-left-sm">
+
+                        <div class="form-group form-input-fields form-group-lg has-feedback">
+              
+                          <label class="sr-only" for="search">Search</label>
+                          <label for="tracker" class="tracker-color first-label">Activity</label>
+                          <i class="fa-lg fa fa-plus mr-4 mt-4 tracker-color float-right" aria-hidden="true"></i>
+                          <div class="input-group">
+                            <input type="text" class="form-control input-search" name="q" id="search" placeholder="Add an activity">
+                            <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                            <i class="fa-lg fa fa-angle-down mr-4 mt-4 text-white" aria-hidden="true"></i>
+                          </div>
+                        </div>
+
+                        <div class="form-group form-input-fields form-group-lg has-feedback">   
+                          <div class="input-group">
+                            <input type="text" class="form-control input-search" name="q" id="tracker" placeholder="Add an activity">
+                            <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                          </div>
+                        </div>
+                        
+                      </form>
+                    </div>
+                      <div class="col-6 add-tracker-last">
+                        <form action="" method="GET" class="form-main nofloat-xs pull-right pull-left-sm">
+          
+                          <div class="form-group form-input-fields form-group-lg has-feedback">
+                
+                            <label class="tracker-color invisible" for="search">Activity</label>
+                            <div class="input-group">
+                              <input type="text" class="form-control input-search" name="q" id="search" placeholder="Add an activity">
+                              <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                              <i class="fa-lg fa fa-angle-down mr-4 mt-4 text-white" aria-hidden="true"></i>
+                            </div>
+                          </div>
+
+                          <div class="form-group form-input-fields form-group-lg has-feedback">   
+                            <div class="input-group">
+                              <input type="text" class="form-control input-search" name="q" id="tracker" placeholder="Add an activity">
+                              <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                            </div>
+                          </div>
+                          
+                        </form>
+                      </div>  
+
+                  </div>
+
+                  <div class="row">
+                  
+                    <div class="col-6 add-tracker-last">
+                      <form action="" method="GET" class="form-main nofloat-xs pull-right pull-left-sm">
+
+                        <div class="form-group form-input-fields form-group-lg has-feedback">
+              
+                          <label class="sr-only" for="search">Search</label>
+                          <label for="tracker" class="last-tracker-color first-label">Tracker</label>
+                          <i class="fa-lg fa fa-plus mr-4 mt-4 last-tracker-color float-right" aria-hidden="true"></i>
+                          <div class="input-group">
+                            <input type="text" class="form-control input-search" name="q" id="search" placeholder="Add a tracker">
+                            <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                            <i class="fa-lg fa fa-angle-down mr-4 mt-4 text-white" aria-hidden="true"></i>
+                          </div>
+                        </div>
+
+                        <div class="form-group form-input-fields form-group-lg has-feedback">   
+                          <div class="input-group">
+                            <input type="text" class="form-control input-search" name="q" id="tracker" placeholder="Add a tracker">
+                            <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                          </div>
+                        </div>
+                        
+                      </form>
+                    </div>
+                      <div class="col-6 add-tracker-last">
+                        <form action="" method="GET" class="form-main nofloat-xs pull-right pull-left-sm">
+          
+                          <div class="form-group form-input-fields form-group-lg has-feedback">
+                
+                            <label class="tracker-color invisible" for="search">Tracker</label>
+                            <div class="input-group">
+                              <input type="text" class="form-control input-search" name="q" id="search" placeholder="Add a tracker">
+                              <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                              <i class="fa-lg fa fa-angle-down mr-4 mt-4 text-white" aria-hidden="true"></i>
+                            </div>
+                          </div>
+
+                          <div class="form-group form-input-fields form-group-lg has-feedback">   
+                            <div class="input-group">
+                              <input type="text" class="form-control input-search" name="q" id="tracker" placeholder="Add a tracker">
+                              <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                            </div>
+                          </div>
+                          
+                        </form>
+                      </div>  
+
+                    </div>
+
+                    <div class="form-check add-tracker-checkbox mt-5">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                        These activities should be completed daily
+                      </label>
+                    </div>
+
+                    <button type="button" class="tracker-btn py-2 px-3 mt-3">Create Tracker</button>
+                    
+                  </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+        <!-- ADD A NEW TRACKER -->
+
+        <!-- Add a New Reminder -->
+
+        <button type="button" class="btn btn-primary mt-2" data-toggle="modal" data-target="#reminderModal">
+          Add A NEW REMINDER
+        </button>
+
+        <div class="add-reminder">
+          <div class="modal fade" id="reminderModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h5 class="modal-title" id="exampleModalLabel">NEW REMINDER</h5>
+
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+
+                    <div class="col-3 time">
+                      <form action="" method="GET" class="form-main add-reminder-first nofloat-xs pull-right pull-left-sm">
+                        <div class="form-group form-input-fields form-group-lg has-feedback">   
+                          <label for="tracker" class="reminder-color first-label ">Select Time</label>
+                          <div class="input-group">
+                            <input type="text" class="form-control input-search" name="q" id="tracker" placeholder="11 25 PM">
+                            <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                    <div class="col-4 add-tracker-last">
+                      <form action="" method="GET" class="form-main nofloat-xs pull-right pull-left-sm">
+
+                        <div class="form-group form-input-fields form-group-lg has-feedback">
+              
+                          <label class="sr-only" for="search">Search</label>
+                          <label for="tracker" class="reminder-color first-label">Occurence</label>
+                          <div class="input-group">
+                            <input type="text" class="form-control input-search" name="q" id="search" placeholder="[Daily,Weekly, Monthly, Yearly]">
+                            <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                            <i class="fa-lg fa fa-angle-down mr-4 mt-4 text-white" aria-hidden="true"></i>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                    <div class="col-5 add-tracker-last">
+                      <form action="" method="GET" class="form-main nofloat-xs pull-right pull-left-sm">
+
+                        <div class="form-group form-input-fields form-group-lg has-feedback">
+              
+                          <label class="sr-only" for="search">Search</label>
+                          <label for="tracker" class="reminder-color first-label">Repeat</label>
+                          <div class="input-group">
+                            <input type="text" class="form-control input-search" name="q" id="search" placeholder="Add an activity">
+                            <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                            <i class="fa-lg fa fa-angle-down mr-4 mt-4 text-white" aria-hidden="true"></i>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+                      <div class="col-5 add-reminder-last">
+                        <form action="" method="GET" class="form-main nofloat-xs pull-right pull-left-sm">
+          
+                          <div class="form-group form-input-fields form-group-lg has-feedback">
+                
+                            <label class="tracker-color" for="search">Alarm Name</label>
+                            <div class="input-group">
+                              <input type="text" class="form-control input-search" name="q" id="search" placeholder="Name of Alarm">
+                              <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                            </div>
+                          </div>
+                        </form>
+                      </div> 
+                      
+                      <div class="col-5 add-reminder-last">
+                        <div class="form-group form-input-fields form-group-lg has-feedback">
+                          <label class="tracker-color" for="search">Link to Tracker</label>   
+                          <div class="input-group">
+                            <input type="text" class="form-control input-search" name="q" id="tracker" placeholder="[Link of Trackers]">
+                            <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-2">
+
+                      </div>
+
+                  </div>
+
+                  <div class="row">
+                      <div class="col-6 add-tracker-last">
+                        <form action="" method="GET" class="form-main nofloat-xs pull-right pull-left-sm">
+          
+                          <div class="form-group form-input-fields form-group-lg has-feedback">
+                
+                            <label class="reminder-color" for="search">Alarm Ringtone</label>
+                            <div class="input-group">
+                              <input type="text" class="form-control input-search" name="q" id="search" placeholder="[List of Tunes]">
+                              <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                              <i class="fa-lg fa fa-angle-down mr-4 mt-4 text-white" aria-hidden="true"></i>
+                            </div>
+                          </div>
+                          
+                        </form>
+                      </div>  
+
+                    </div>
+
+                    <button type="button" class="reminder-btn py-2 px-3 mt-3">Add Reminder</button>
+                    
+                  </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+        <!-- Add a New Reminder -->
+
+        <!-- BUTTON UPDATE PLAYLIST -->
+
+        <button type="submit" class="btn-next btn-submit px-5 py-2 mt-2">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span> View Pothi Sahib
+        </button>
+
+        <!-- BUTTON UPDATE PLAYLIST -->
+
+      </div>      
+            
+                </section>              
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- STICKY PLAYER -->
+
+    <div id="StickyPlayer" class="audio-speed-controller py-2 px-3">
+
+      <p>Audio Speed</p>
+      <div class=" justify-content-between">
+           <!--  range 2  -->
+    <div class="range">
+      <input type="range" min="0" max="50" value="0" id="range3" class="range-input" /> 
+      <div class="value3">0x</div>
+    </div>
+
+        
+      </div>
+
+          <div class="d-flex align-items-start">
+
+          <span class="float-left mr-3">Auto Scroll</span>
+
+          <div id="toggleSwitch" class="float-right d-inline">
+            <label for="toggle">
+              <input class="input" type="checkbox" id="toggle">
+              <div class="toggle-wrapper"><span class="selector"></span></div>
+            </label>
+          </div>
+
+          </div>
+
+          <div class="">
+            <div class="range">
+              <input type="range" min="0" max="50" value="0" id="range2" class="range-input" /> 
+              <div class="value2">0x</div>
+            </div>
+
+            
+          </div>
+
+
+          <div class="d-flex ">
+            <span class="mr-2">Repeat</span>
+
+            <div id="toggleSwitch" class="float-right d-inline">
+              <label for="toggle">
+                <input class="input" type="checkbox" id="toggle">
+                <div class="toggle-wrapper-blue"><span class="selector"></span></div>
+              </label>
+            </div>
+
+            <span class="ml-auto">10x</span>
+          </div>
+    
+
+    </div> 
+
+    <!-- SETTINGS DIV -->
+
+    <!-- FOOTER -->
+
+    <section id="footer" class="footer">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-5 col-sm-12">
+                    <h2>Learn Shudh Gurbani</h2>
+                    <span>Vision or summary can go here for quick scan</span>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo optio atque, iusto tempore dolorem eius iure necessitatibus rem iste eum cupiditate eveniet? Dignissimos maxime saepe ratione placeat amet atque.</p>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-12 footer-menu pl-5 pl-md-0">
+                    <ul>
+                        <li><a href="">Sehaj Path</a></li>
+                        <li><a href="">Sundar Gutka</a></li>
+                        <li><a href="">Bal Oupdesh</a></li>
+                        <li><a href="">Literature</a></li>
+                        <li><a href="">Hukamnama Sahib</a></li>
+                        <li><a href="">Multimedia</a></li>
+                        <li><a href="">Resources</a></li>
+                        <li><a href="">Donate</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-12 footer-link">
+                    <ul>
+                        <li><a href="">Gursevak.com</a></li>
+                        <li><a href="">Mahapurkh.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-12 last-clicks">
+                    
+                    <div class="default">
+                        <button onclick="myFunction01()"><span> <i class="fa fa-bolt mr-2" aria-hidden="true"></i>
+                            Default <i class="fa-lg fa fa-angle-down ml-4" aria-hidden="true"></i> </span> </button>
+
+                    </div>
+
+                    <div id="myDIV01" class="default-list">
+                        <ul>
+                            <li>List 01</li>
+                            <li>List 02</li>
+                            <li>List 03</li>
+                        </ul>
+                    </div>
+
+                    <div class="language mt-3">
+
+                        <button onclick="myFunction02()"><span> <i class="fa fa-globe mr-2" aria-hidden="true"></i>
+                            Language <i class="fa-lg fa fa-angle-down ml-4" aria-hidden="true"></i> </span>  </button>
+                        </div>
+
+                    
+                    <div id="myDIV02" class="language-list">
+                        <ul>
+                            <li>List 01</li>
+                            <li>List 02</li>
+                            <li>List 03</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pb-5 pt-5">
+                <div class="col last-links">
+                    <a href="#">Rights</a> <span class="">&#124</span>&#124
+                    <a href="#">Privacy Policy</a> <span class="">&#124</span>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+     <!-- STICKY PLAYER -->
+
+     <div class="fixed-bottom d-none">
+
+     <div class="player">
+      <p></p>
+    </div>
+     
+      <div class="player-icons container-fluid">
+        <div class="row">
+
+        <div class="col-2">
+          <span class="timer float-left  mt-2 ml-2">00:00:00</span>
+        </div>
+        
+        <div class="col-8">
+          <p class="text-center mt-3">
+            <span class="player-cursor"><i class="fa-solid fa-arrows-rotate ml-4" aria-hidden="true"></i> </span>
+            <span class="player-cursor"><i class="fa-solid fa-angles-left ml-5" aria-hidden="true"></i> </span>
+            <span class="player-cursor"><i class="fa-solid fa-play ml-4" aria-hidden="true"></i> </span>
+            <span class="player-cursor"><i class="fa-solid fa-angles-right ml-4" aria-hidden="true"></i> </span>
+
+            <button onclick="myFunctionGear()" class="gear-icon">
+              <span class="set-the-player"><i class="fa-lg fa fa-gear ml-5" aria-hidden="true"></i> </span>
+            </button>
+
+          </p>
+        </div>
+        
+        <div class="col-2">
+          <span class="timer float-right  mt-2 mr-2">00:00:00</span>
+        </div>
+
+      </div>
+      </div>
+
+    </div>
+
+ 
+
+    <!------------------------------------------>
+  <script>
+
+      const sliderEl = document.querySelector("#range2")
+      const sliderValue = document.querySelector(".value2")
+
+      sliderEl.addEventListener("input", (event) => {
+      const tempSliderValue = event.target.value; 
+      sliderValue.textContent = tempSliderValue;
+  
+      const progress = (tempSliderValue / sliderEl.max) * 100;
+ 
+      sliderEl.style.background = `#ffffff`;
+    })
+
+          const sliderEl3 = document.querySelector("#range3")
+          const sliderValue3 = document.querySelector(".value3")
+
+          sliderEl3.addEventListener("input", (event) => {
+          const tempSliderValue = Number(event.target.value); 
+  
+          sliderValue3.textContent = tempSliderValue; 
+  
+          const progress = (tempSliderValue / sliderEl3.max) * 100;
+        
+          sliderEl3.style.background = `#ffffff`;
+          
+          sliderEl3.style.setProperty("--thumb-rotate", `${(tempSliderValue/100) * 2160}deg`)
+      })
+
+    </script>
+    <!------------------------------------------>
+
+
+    <script>
+
+      $("document").ready(function(){
+      $(".tab-slider-body").hide();
+      $(".tab-slider-body:first").show();
+      });
+
+      $(".tab-slider-nav li").click(function() {
+      $(".tab-slider-body").hide();
+      var activeTab = $(this).attr("rel");
+      $("#"+activeTab).fadeIn();
+      if($(this).attr("rel") == "tab2"){
+          $('.tab-slider-tabs').addClass('slide');
+      }else{
+          $('.tab-slider-tabs').removeClass('slide');
+      }
+      $(".tab-slider-nav li").removeClass("active");
+      $(this).addClass("active");
+      });
+      
+
+      $("document").ready(function(){
+      $(".tab-slider-body00").hide();
+      $(".tab-slider-body00:first").show();
+      });
+
+      $(".tab-slider-nav00 li").click(function() {
+      $(".tab-slider-body00").hide();
+      var activeTab00 = $(this).attr("rel");
+      $("#"+activeTab00).fadeIn();
+      if($(this).attr("rel") == "tab4"){
+          $('.tab-slider-tabs00').addClass('slide');
+      }else{
+          $('.tab-slider-tabs00').removeClass('slide');
+      }
+      $(".tab-slider-nav00 li").removeClass("active");
+      $(this).addClass("active");
+      });
+      
+  </script>
+
+
+    <script>
+
+          const audio = document.querySelector('.speedcontrolcontainer  audio');
+          const playbackrate = document.querySelector('.speedcontrolcontainer input');
+          const display = document.querySelector('.speedcontrolcontainer span');
+          const displayvalue = val => {
+            return parseInt(val * 100, 10) + '%'
+          }
+          if (window.localStorage.pbspeed) {
+            audio.playbackRate = window.localStorage.pbspeed;
+            playbackrate.value = window.localStorage.pbspeed;
+          }
+          display.innerText = displayvalue(audio.playbackRate);
+          playbackrate.addEventListener('change', e => {
+            audio.playbackRate = playbackrate.value;
+            display.innerText = displayvalue(playbackrate.value);
+            window.localStorage.pbspeed = playbackrate.value;
+          });
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+
+</body>
+</html>
