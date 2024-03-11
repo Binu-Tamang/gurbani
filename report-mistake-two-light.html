@@ -7,7 +7,7 @@
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="css/dark-style.css">
+    <link rel="stylesheet" href="css/light-style.css">
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
   
@@ -18,8 +18,6 @@
     <title>Learn Shudh Gurbani</title>
 </head>
 <body>
-
-    
 
      <!-- Modal -->
      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -503,78 +501,116 @@
          
       </header>
 
-      <div class="container add-note resources-note mt-5"> 
-       
 
-              <div class="row">
-                <div class="col-4"></div>
-                <div class="col-6">
-                  
-                  
-                  <p class="folder-title mt-1">Text to be Added</p>
-                  <span class="cross-icon mr-2"><i class="fa-solid fa-x text-white d-inline"></i></span><span class="resources-sub-title">Text to be Added | Text to be Added | Text to be Added</span> <br>
-                  <span class="cross-icon mr-2"><i class="fa-solid fa-x text-white d-inline"></i></span><span class="resources-explain">Text to be Added</span> <br>
-                  <span class="cross-icon mr-2"><i class="fa-solid fa-x text-white d-inline"></i></span><span class="resources-english-version">Text to be Added</span> <br>
-                  <span class="cross-icon mr-2"><i class="fa-solid fa-x text-white d-inline"></i></span><span class="resources-english-meaning">Text to be Added</span> <br>
-      
-                  <p class="border-content mt-3 resouce-text"> <span class="cross-icon mr-1"><i class="fa-solid fa-x text-white d-inline"></i></span> <span class="b-pink mr-1"></span> Text to be Added</p>
-                  <p class="border-content resouce-text"> <span class="cross-icon mr-1"><i class="fa-solid fa-x text-white d-inline"></i></span>  <span class="b-blue mr-1"></span> Text to be Added</p>
-                  <p class="border-content resouce-text"> <span class="cross-icon mr-1"><i class="fa-solid fa-x text-white d-inline"></i></span>  <span class="b-orange mr-1"></span> Text to be Added</p>
-      
-                  <form action="">
-                  <div class="form-group mistake-t">
-                    <!-- <label for="exampleFormControlTextarea1">Example textarea</label> -->
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="]Start typing here..."></textarea>
-                  </div>
-                </form>
-      
-                </div>
-                <div class="col-2"></div>
+      <!-- Modal -->
+      <div class="container report-mistake">
+          <div class="">
+            <div class="">
+              <div class="modal-header">
+                
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+
               </div>
-              <div class="row">
-                <div class="col-4"></div>
-                <div class="col-6">
-                  <div class="add-note-last">
-                    <form action="" method="GET" class="form-main form-inline nofloat-xs pull-right pull-left-sm">
-        
+            
+                <div class="row">
+
+                  <div class="col-7 time">
+                    <form action="" method="GET" class="form-main add-reminder-first nofloat-xs pull-right pull-left-sm">
+                      <div class="form-group form-input-fields form-group-lg has-feedback">   
+                        <label for="tracker" class="reminder-color first-label ">Thuk</label>
+                        <div class="input-group">
+                          <input type="text" class="form-control input-search" name="q" id="tracker" placeholder="[Autofill Gurbani Pangti]">
+                          <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+
+                  <div class="col-5 add-tracker-last">
+                    <form action="" method="GET" class="form-main nofloat-xs pull-right pull-left-sm">
+
                       <div class="form-group form-input-fields form-group-lg has-feedback">
             
                         <label class="sr-only" for="search">Search</label>
+                        <label for="tracker" class="reminder-color first-label">Ang</label>
                         <div class="input-group">
-                          <input onclick="myFunctionNote()" type="text" class="form-control input-search" name="q" id="search" placeholder="Select Folder">
+                          <input type="text" class="form-control input-search" name="q" id="search" placeholder="[Autofill Ang]">
                           <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
                           <i class="fa-lg fa fa-angle-down mr-4 mt-4 text-white" aria-hidden="true"></i>
                         </div>
-    
-                        <button type="submit" class="btn btn-outline-light btn-submit px-5 add-btn ml-3">
-                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span> Add 
-                        </button>
-    
                       </div>
                     </form>
-    
-                    <div id="myNoteList" class="add-note-last-list">
-                      <ul>
-                        
-                          <li class="note-color">Add a New Folder <i class="fa fa-plus float-right note-color mt-2" aria-hidden="true"></i></li> 
-                          <li><textarea id="add-note-textarea" placeholder="Describe yourself here..." rows="1" cols="14">
-                            It was a dark and stormy night...
-                            </textarea></li>
-                          <li>Folder Name</li>
-                          <li>Folder Name</li>
-                          <li>Folder Name</li>
-                          <li>Folder Name</li>
-                          <li>Folder Name</li>
-                      </ul>
-                    </div>
                   </div>
                 </div>
-                <div class="col-2"></div>
-              </div>
+
+                <div class="row">
+                    <div class="col-7 add-reminder-last">
+                      <form action="" method="GET" class="form-main nofloat-xs pull-right pull-left-sm">
+        
+                        <div class="form-group form-input-fields form-group-lg has-feedback">
               
-      </div>
-      </div>
-      </div>
+                          <label class="tracker-color" for="search">Audio Track Name</label>
+                          <div class="input-group">
+                            <input type="text" class="form-control input-search" name="q" id="search" placeholder="[Autofill Audio Track Name]">
+                            <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                          </div>
+                        </div>
+                      </form>
+                    </div> 
+                    
+                    <div class="col-5 add-reminder-last">
+                      <div class="form-group form-input-fields form-group-lg has-feedback">
+                        <label class="tracker-color" for="search">Audio Track Time Stamp</label>   
+                        <div class="input-group">
+                          <input type="text" class="form-control input-search" name="q" id="tracker" placeholder="[Autofill Time Stamp]">
+                          <span class="input-group-addon group-icon"> <span class="glyphicon glyphicon-user"></span>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-7 add-reminder-last">
+                      <form action="" method="GET" class="form-main nofloat-xs pull-right pull-left-sm">
+        
+                        <div class="form-group form-input-fields form-group-lg has-feedback">
+              
+                          <label class="tracker-color" for="search">Screenshot Attached</label>
+                          <div class="screenshot-area">
+                           
+                          </div>
+                        </div>
+                      </form>
+                    </div> 
+                </div>
+
+                <div class="row">
+                    <div class="col-12 add-tracker-last">
+                      <form action="" method="GET" class="form-main nofloat-xs pull-right pull-left-sm">
+        
+                        <div class="form-group form-input-fields form-group-lg has-feedback">
+              
+                          <label class="reminder-color" for="search">Message</label>
+                          <div class="input-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type message here..."></textarea>
+                          </div>
+                        </div>
+                        
+                      </form>
+                    </div>  
+
+                  </div>
+
+                  <button type="button" class="reminder-btn py-2 px-3 mt-3">Report Mistake</button>
+                  
+                </div>
+        </div>
+    </div>
+        
+    
 
         
     </section>
