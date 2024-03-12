@@ -1,0 +1,59 @@
+#toggleSwitch {
+    display: grid;
+    place-content: center;
+  /*  height: 100vh; */
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fefefe;
+  }
+  
+  label {
+    pointer-events: none;
+  }
+  label .input {
+    display: none;
+  }
+  /* label .input:checked + .toggle-wrapper {
+    box-shadow: 0 8px 14px 0 rgba(18, 51, 215, 0.12);
+  } */
+  label .input:checked + .toggle-wrapper > .selector {
+    left: calc(100% - 20px);
+    background-color: #fff; /*#3957ee;*/
+  }
+  label .input:checked ~ .notification > .selected:before {
+    content: " ON";
+  }
+  label .toggle-wrapper {
+    position: relative;
+    width: 60px;
+    height: 20px;
+    background-color: #F5D43B;
+    border-radius: 999px;
+    margin: auto;
+    cursor: pointer;
+    pointer-events: all;
+    
+  }
+  label .toggle-wrapper .selector {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    transform: translateY(-50%);
+    background-color: #fff; /* #ee5f39;*/
+    transition: left 0.25s ease;
+    border-radius: 50%;
+  }
+  label .notification {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    color: #004B88;
+  }
+  label .notification .selected:before {
+    content: "OFF";
+    font-size: 40px;
+  /*  border-bottom: 2px solid;*/
+  }

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.828" height="21.828" viewBox="0 0 21.828 21.828">
+  <g id="Fullscreen-Button" transform="translate(-192.418 -101.772)">
+    <path id="Path_115" data-name="Path 115" d="M193.418,109.815v-5.334a1.709,1.709,0,0,1,1.709-1.709h5.334" transform="translate(0 0)" fill="none" stroke="#bebebe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_116" data-name="Path 116" d="M200.461,189.979h-5.334a1.709,1.709,0,0,1-1.709-1.709v-5.334" transform="translate(0 -67.379)" fill="none" stroke="#bebebe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_117" data-name="Path 117" d="M280.626,182.936v5.334a1.709,1.709,0,0,1-1.709,1.709h-5.335" transform="translate(-67.379 -67.379)" fill="none" stroke="#bebebe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_118" data-name="Path 118" d="M273.582,102.772h5.335a1.709,1.709,0,0,1,1.709,1.709v5.334" transform="translate(-67.379 0)" fill="none" stroke="#bebebe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
