@@ -20,6 +20,9 @@
   --dark-brown: #9f6634;
   --sky-blue: #288dd8;
 }
+body{
+  font-family: Acumin Pro,sans-serif;
+}
 
 /* -------------------------
 MODAL & LOGIN CREDENTIALS
@@ -85,7 +88,7 @@ MODAL & LOGIN CREDENTIALS
 .modal-content .btnSubmit {
   font-weight: 600;
   color: #fff;
-  background-color: #288dd8;
+  background-color: #17428E;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 20px;
@@ -93,13 +96,13 @@ MODAL & LOGIN CREDENTIALS
 
 .modal-content .btnsignup {
   font-weight: 600;
-  color: #288dd8;
+  color: #17428E;
   background-color: transparent;
   font-size: 13px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 20px;
-  border: 2px solid #288dd8;
+  border: 2px solid #17428E;
   width: 50%;
 }
 
@@ -257,24 +260,29 @@ HEADER
   font-size: 18px;
   color: var(--dark-blue);
   float: left;
+  color: #496eb0;
 }
 
 .play i {
   font-size: 11px;
-  margin-top: 5px;
-  margin-right: 3px;
-  color: #341c89;
+  margin-top: 4px;
+  margin-right: 8px;
+  color: #2551a0;
 }
 
 .play {
   font-size: 12px;
   font-weight: 700;
-  color: #288dd8;
+  color: #2551a0;
   background-color: #f6d43a;
   border-radius: 25px;
-  padding: 2px 10px;
+  padding: 6px 10px;
   float: right;
 }
+
+.social-icon {
+  padding-top: 8px;
+} 
 
 .sidebar-donate {
   background-color: #dee5f1;
@@ -311,7 +319,7 @@ SLIDER
 ---------------------------- */
 
 .slider {
-  background-image:  url('../images/banner.png');
+  background-image: url("../images/banner.png");
   height: 600px;
   position: relative;
   background-size: cover;
@@ -515,16 +523,17 @@ SLIDER
 }
 
 .search-type-list ul li.active {
-  font-size: 14px;
+  /* font-size: 14px; */
   font-weight: bold;
 }
 
 .search-type-list ul li:hover {
   color: #f6d43a;
+  font-weight: 600;
 }
 
 .search-type-list-hr {
-  border: 1px solid #f7f7f7;
+  /* border: 1px solid #f7f7f7; */
   margin-top: 9px;
   margin-bottom: 5px;
 }
@@ -537,13 +546,14 @@ SLIDER
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .advanced-settings {
   color: #ffffff;
   background: #628ad0;
   border-radius: 20px;
-  padding: 3px 0px;
+  padding: 6px 4px;
 }
 
 .advanced-type-list {
@@ -584,6 +594,12 @@ SLIDER
 /* -------------------------
 RECENTLY READ
 ---------------------------- */
+span.sub-tt {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: block;
+} 
 
 .recently-read {
   background-color: var(--white);
@@ -641,12 +657,12 @@ RECENTLY READ
 
 .p-title {
   margin-top: -10px;
-  color: #0d1c39;
+  color: #fff;
   font-weight: 700;
 }
 
 .fa-pause {
-  color: #0d1c39;
+  color: #fff;
   font-size: 18px;
 }
 
@@ -655,7 +671,8 @@ RECENTLY READ
 }
 
 .fa-share {
-  color: #dddddd;
+  color: #0056b3;
+  margin-bottom: 4px;
 }
 
 .progress-bar {
@@ -746,7 +763,15 @@ section .section-title {
 /* -------------------------
 ACCORDION
 ---------------------------- */
+.accordion-group img {
+  position: absolute;
+  right: 15px;
+  top: 35px;
+}
 
+.accordion-heading {
+  position: relative;
+}
 .accordion-toggle:after {
   font-family: "FontAwesome";
   content: "\f078";
@@ -776,7 +801,7 @@ a.accordion-toggle::after {
 }
 
 hr {
-  border-top: 3px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #e9ecef;
 }
 
 .add-new {
@@ -785,8 +810,8 @@ hr {
   color: var(--dark-blue);
   font-weight: 600;
 }
-.accordion-toggle.collapsed  .text-03{
-color: #464646;
+.accordion-toggle.collapsed .text-03 {
+  color: #464646;
 }
 
 a[aria-expanded="true"] .text-03 {
@@ -844,9 +869,12 @@ BAL OUPDESH
   color: #288dd8;
   font-size: 16px;
 }
-
+figcaption.figure-caption {
+  color: #9F6634;
+}
 .img-bal {
   border-radius: 10px;
+  margin-bottom: 8px;
 }
 .text-003 {
   color: var(--text-color);
@@ -896,7 +924,8 @@ a.text-0-33 {
 #nav-nav-bal-oupdesh .nav-link {
   color: #222;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
+  line-height: 2;
 }
 
 #nav-nav-bal-oupdesh .nav-link.active {
@@ -906,7 +935,7 @@ a.text-0-33 {
 }
 
 #nav-nav-bal-oupdesh .nav-link:hover {
-  color: #288dd8;
+  color: #142849;
   font-size: 20px;
   font-weight: 500;
 }
@@ -1145,7 +1174,7 @@ FOOTER
   text-decoration: none;
   color: var(--text-dark-color);
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .footer-link ul li {
@@ -1157,14 +1186,14 @@ FOOTER
   text-decoration: none;
   color: var(--text-dark-color);
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .last-links a {
   text-decoration: none;
   color: #928e8e;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .last-links span {
@@ -1194,7 +1223,7 @@ FOOTER
   border-radius: 5px;
   padding: 8px 11px 1px 0px;
   display: none;
-  color:  var(--text-dark-blue);
+  color: var(--text-dark-blue);
 }
 
 .default-list ul li {
@@ -1215,12 +1244,12 @@ FOOTER
 }
 
 .footer .language-list {
-  background-color:  #e7ecf3;
+  background-color: #e7ecf3;
   margin-top: 7px;
   border-radius: 5px;
   padding: 8px 11px 1px 0px;
   display: none;
-  color:  var(--text-dark-blue);
+  color: var(--text-dark-blue);
 }
 
 .language-list ul li {
@@ -1313,7 +1342,11 @@ Login Page
 /***************************************************
 RESOURCES
 ****************************************************/
-
+.modal-header img {
+  object-fit: cover;
+  padding: 10px;
+  width: 130px;
+}
 /* DAILY DOSE */
 
 .dose-player {
@@ -1544,53 +1577,63 @@ RESOURCES
 }
 
 .kamaiyi-details h5 {
-  font-size: 30px;
-  color: var(--text-blue);
+  font-size: 22px;
+  color: #2451a0;
   font-weight: 400;
 }
 
 .small-details {
-  font-size: 20px;
+  font-size: 14px;
   color: var(--pink);
 }
 
 .kamaiyi-details .progress {
-  height: 40px;
+  height: 30px;
   margin-top: 4px;
   border-radius: 36px;
+  /* display: flex; */
+  /* align-items: center; */
+  width: 100%;
 }
 
 .kamaiyi-details .progress-bar {
   border-radius: 22px;
+  /* height: 30px; */
+  padding-bottom: 8px;
 }
 
 .sub-progress .progress {
-  background: #888f9e;
-  margin-left: 12px;
-  height: 8px;
-  width: 635px;
-  background: #888f9e 0% 0% no-repeat padding-box;
+  background: #fae99d;
+  margin: 0 12px;
+  height: 6px;
+  width: auto;
   border-radius: 12px;
   opacity: 0.5;
+  margin-top: 6px;
 }
 
 .sub-progress .progress-bar {
-  background: #f5d43b;
+  background: #ffc107;
 }
 
 .daily-report {
   column-count: 2;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 
 .daily-report p {
   color: var(--text-dark-blue);
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 6px;
 }
 
 .daily-report span {
-  color: #f5d43b;
-  font-size: 20px;
+  color: #2451a0;
+  font-size: 14px;
   font-weight: 300;
 }
 
@@ -1602,7 +1645,7 @@ RESOURCES
 
 .item1 {
   grid-row: 1/7;
-  color: #f5d43b;
+  color: #2451a0;
   font-size: 20px;
   font-weight: 500;
 }
@@ -1613,7 +1656,7 @@ RESOURCES
 .item5,
 .item6,
 .item7 {
-  color: #f5d43b;
+  color: #2451a0;
   font-size: 20px;
   font-weight: 300;
 }
@@ -1641,12 +1684,12 @@ RESOURCES
 }
 
 .reminders-name span {
-  color: #9ab6e6;
-  font-size: 20px;
+  color: #9F6634;
+  font-size: 15px;
 }
 
 .reminders-name .yellow {
-  color: #f5d43b;
+  color: var(--pink);
 }
 
 .reminders-name {
@@ -1657,22 +1700,22 @@ RESOURCES
 /* NOTES TABLE STYLE */
 
 .notes-table {
-  background: #f5f5f5 0% 0% no-repeat padding-box;
+  background: #f8f8f8;
 }
 
 .notes-table h5 {
-  color: #f5d43b;
+  color: var(--naivi-blue);
   font-size: 28px;
 }
 
 .switch-color {
-  color: #f5d43b;
+  color: var(--text-dark-blue);
   text-decoration: underline;
   cursor: pointer;
 }
 
 thead {
-  background: #fff;
+  background: #efefef;
   border-radius: 40px;
 }
 
@@ -1681,14 +1724,14 @@ th {
   color: #222;
   font-weight: 400;
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-left: 30px;
   padding-right: 40px;
   font-size: 18px;
 }
 
 td {
-  border-right: 3px solid #33425f;
+  border-right: 3px solid #efefef;
 }
 
 .left-border {
@@ -1715,7 +1758,7 @@ td {
 }
 
 .table-middle-title {
-  color: white;
+  color: #222;
   font-size: 18px;
 }
 
@@ -4124,7 +4167,7 @@ SWITCH BUTTON
   display: grid;
   place-content: center;
   /*  height: 100vh; */
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: Acumin Pro, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -4844,7 +4887,7 @@ input[type="checkbox"].styled:checked + label:after {
 
 .fa-minus {
   font-size: 20px;
-  color: #0d1c39;
+  color: #fff;
 }
 
 #listResultsTrack .checkbox label::after {
@@ -5306,7 +5349,7 @@ a.button-5 {
   color: #fff;
   cursor: pointer;
   display: inline-flex;
-  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+  font-family: system-ui, Acumin Pro, system-ui, "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -5324,7 +5367,9 @@ a.button-5 {
   vertical-align: baseline;
   width: auto;
 }
-
+.table-middle-title p {
+  margin: 0;
+}
 section.all_list ul li {
   list-style: none;
   margin-right: 10px;
